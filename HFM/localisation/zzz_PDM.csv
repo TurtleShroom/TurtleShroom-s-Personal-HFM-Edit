@@ -1,0 +1,64 @@
+wool_mill;Wool Mill;;;;;;;;;;;;;x
+wool_mill_desc;Wool was the traditional source of fabric until cotton was discovered during the Age of Sail. Despite this, wool is still widely used by the textile industry.;;;;;;;;;;;;;;x
+bakery;Bakery;;;;;;;;;;;;;x
+bakery_desc;Bakeries have been the foundation of cities since time immemorial. Without grain and bread, cities as we know them could not sustain their population.;;;;;;;;;;;;;x
+wool_cloth_factories;Wool Factories;;;;;;;;;;;;;x
+wool_cloth_factories_desc;No longer is wool only spun in the homes of promising artisans. Now we have the ability to set up factories where textiles can be created at ten times the rate!;;;;;;;;;;;;;x
+industrial_bakeries;Industrial Bakeries;;;;;;;;;;;;;x
+industrial_bakeries_desc;The preparation of food no longer need be done in small, household-based bakeries. Now, bakeries can be built which utilize the latest in equipment and technology.;;;;;;;;;;;;;x
+bakery_power;Bakeries and Mills;;;;;;;;;;;;;x
+bakery_power_desc;With natural power being harnessed to help process food, our people are taking the first small steps towards a culture of commercial consumption.;;;;;;;;;;;;;;x
+lumber_mills;Lumber Mills;;;;;;;;;;;;;;x
+lumber_mills_desc;Small lumbering operations have grown into an industry capable of building giant mills, all to feed our growing need for construction material.;;;;;;;;;;;;;;x
+tropical_lumber_mills;Tropical Lumber Mills;;;;;;;;;;;;;;x
+tropical_lumber_mills_desc;With the advent of improved mechanical saws, the ability to turn hard-to-harvest tropical wood into proper lumber has become available.;;;;;;;;;;;;;;x
+become_toucouleur_title;Found the Toucouleur Empire;;;;;;;;;;;;;x
+become_toucouleur_desc;The Jihad must continue! With the cities of the central deserts under our control, now is the time to found a united empire that will resist the coming onslaught of the colonial powers!;;;;;;;;;;;;;x
+become_mali_empire_title;Restore the Mali Empire;;;;;;;;;;;;;x
+become_mali_empire_desc;The Mali Empire was once one of the greatest kingdoms in all of Africa. Under the ancient flag we can unite the peoples of the western Sahel, and challenge the might even of the Europeans!;;;;;;;;;;;;;x
+gtfo_BMK_title;Grant Mali Independence;;;;;;;;;;;;;;x,,
+gtfo_BMK_desc;We've had a good run, but it's time to end our rulership of Mali: if you love something, let it go!;;;;;;;;;;;;;;x
+BMK;Mali;;;;;;;;;;;;;;x
+BMK_ADJ;Malian;;;;;;;;;;;;;;x
+MAN_communist;Communist Labor Party;Communiste;Kommunistisch;;Comunista;;;;;;;;;x
+MAN_liberal;Tammany Hall;Tammany Hall;Tammany Hall;;Tammany Hall;;;;;;;;;x
+MAN_conservative;Union League Club;Réunioniste;Reunionisten;;Reunionista;;;;;;;;;x
+MAN_socialist;United Labor Party;Communiste indépendant;Unabhängige Kommunisten;;Comunista Independiente;;;;;;;;;x
+MAN_reactionary;Fifth Avenue;Nationaliste;Nationalisten;;Nacionalista;;;;;;;;;x
+MAN_anarcho_liberal;Wall Street;Radical;Radikale;;Radical;;;;;;;;;x
+MAN_fascist;Order of the Dark Knights;Fasciste;Faschisten;;Fascista;;;;;;;;;x
+EVTNAME16401;$FROMCOUNTRY$ Applies For Statehood!;;;;;;;;;;;;;;x
+EVTDESC16401;Yesterday morning we recieved a petition from the $FROMCOUNTRY_ADJ$ government, requesting Statehood in the United States of Central America. A state constitution has been submitted, along with maps defining the state's territorial boundries. Common opinion seems to hold it a forgone conclusion that we will accept this petition for statehood and forever join $FROMCOUNTRY$ into our prosperous $COUNTRY_ADJ$ republic.;;;;;;;;;;;;;;x
+EVTNAME16500;Second Constitutional Convention;;;;;;;;;;;;;;x
+EVTDESC16500;Delegates from the northern states are growing increasingly impatient with the deadlock in the senate on the issue of slavery, citing what they see as an unreasonable balance of power currently controlled by southern interests. This has led to demands for a second constitutional convention and a change to a more proportional system of government based on population-- a demand adamantly opposed by the south, and not universally supported even in the north.;;;;;;;;;;;;;;x
+EVTNAME16501;Dissatisfaction in the North;;;;;;;;;;;;;;x
+EVTDESC16501;Delegates from the northern states are growing increasingly impatient with the deadlock in the senate on the issue of slavery, citing what they see as an unreasonable balance of power currently controlled by southern interests. Despite the move to more proportional government, things have not changed and thus there is talk that perhaps it is the north that needs to secede into a new union based on the freedom of men.;;;;;;;;;;;;;;x
+EVTDESC16505;Talk of secession from the Union can be heard on the streets of $PROVINCENAME$. In fact, all over $STATENAME$ there is talk of secession, fueled by outrage over the changes to the American constitution which have stripped states of their equality. Local sentiments seem to be turning towards the south even though $STATENAME$ is not a slave state.;;;;;;;;;;;;;;x
+EVTDESC16506;Talk of secession from the Union can be heard on the streets of $PROVINCENAME$. In fact, all over $STATENAME$ there is talk of secession, as liberals spread loud complaints over their dissatisfaction with the deadlock in the senate. They speak of a new Union based in the north, based on the true freedom the fouding fathers intended.;;;;;;;;;;;;;;x
+EVTNAME16510;The Free States of America;;;;;;;;;;;;;;x
+EVTDESC16510;A convention of northern delegates have convened in Philadelphia to announce the formation of a new union: the Free States of America, free of slavery and dedicated to true freedom for all men. The 'true' American government has decreed this the act of traitors, and is considering whether a peaceful resolution through negotiation is even possible. The so-called Free American government, however, is calling on patriots to rebel against a government held hostage to southern aristocrats and hidebound thinking.;;;;;;;;;;;;;;x
+EVTNAME16511;Fort Mifflin Fired Upon!;;;;;;;;;;;;;;x
+EVTDESC16511;While debate has been raging in $CAPITAL$ regarding whether to negotiate with the Free States, loyal American troops within Free State territory have been on the move and preparing for the worst. One battalion relocated to Fort Mifflin and proceeded to ignore Free State demands for their immediate withdrawal. Days later, Free State troops appeared and demanded the fort's surrender-- and when the commander refused, the Free State forces opened fire. This is a clear provocation. All hopes for a peaceful settlement have now ended.;;;;;;;;;;;;;;x
+EVTNAME16515;The Union Sundered;;;;;;;;;;;;;;x
+EVTDESC16515;The civil war is over... and we have lost. The United States of America that was is now gone. Delegates in $CAPITAL$ have convened to urge the government to put aside the former constitution, declaring it irrelevant for the reality that now faces us. A new constitution is being drafted, one heralding our place as master of the South, though there are yet some who say our destiny must one day be retaken and that not all is lost.;;;;;;;;;;;;;;x
+tanzimat_era;Tanzimat Reforms;;;;;;;;;;;;x
+tanzimat_era_desc;The Tanzimat era was a period of reform in the Ottoman Empire, characterized by an increasing drive towards westernization and multiculturalism. This was supported by the Young Ottomans, an intellectual class who saw reform as the only way to prevent the ultimate breakup of a decaying power.;;;;;;;;;;;;x
+tanzimat_western_democracy_title;The European Empire;;;;;;;;;;;;x
+tanzimat_western_democracy_desc;With an indication of our alignment towards Europe and a movement away from traditional religious institutions, the Ottoman government has the opportunity to fully enact the ideals of the Young Ottomans and the Tanzimat Reforms. This will endear us towards other European powers and ensure they do not undertake any radical notions of partitioning the Balkans, even if it will ultimately upset more radical Turkish nationalists.;;;;;;;;;;;;x
+tanzimat_mixed_title;The Constitutional Era;;;;;;;;;;;;x
+tanzimat_mixed_desc;The Kanûn-i Esâsî, or 'Basic Law', was a period of constitutional rule in the Empire promoted by the Young Ottomans and intended to serve as a compromise between conservative religious groups and those more interested in reforming the Empire into a modern European democracy.;;;;;;;;;;;;x
+tanzimat_islamic_caliphate_title;The Islamic Empire;;;;;;;;;;;;x
+tanzimat_islamic_caliphate_desc;With an orientation of the Empire towards embracing Arab cultures, and a rejection of the liberal ideals of the Tanzimat Reforms, the Empire has put itself on a path of regaining its role as the preeminent Islamic power. Traditionalists are pleased, and we have seen a widespread acceptance of our aim among Arab groups. While European nations will no doubt seek to interfere, we can at least rest easy knowing that nationalism will not find an easy hold in the Islamic Arab world.;;;;;;;;;;;;x
+hatt_i_humayun_title;Hatt-i Hümayun;;;;;;;;;;;;x
+hatt_i_humayun_desc;The Hatt-i Hümayun, or 'Imperial Reform Edict', will take the concept of Ottomanism-- the belief that equality among the Empire's religious groups will solve its social issues-- to the logical conclusion. Full rights will be granted to the Empire's minorities, and laws passed to grant each millet the right to use  the religious law of its population. This will go a long way towards dealing with some of the nationalist strife the country has suffered, and bring the Ottoman Empire into a new and multicultural age.;;;;;;;;;;;;x
+hatt_i_humayun2_title;Hatt-i Hümayun;;;;;;;;;;;;x
+hatt_i_humayun2_desc;The Hatt-i Hümayun, or 'Imperial Reform Edict', will take the concept of Ottomanism-- the belief that equality among the Empire's religious groups will solve its social issues-- to the logical conclusion. Full rights will be granted to the Empire's minorities, and laws passed to grant each millet the right to use  the religious law of its population. This will go a long way towards dealing with some of the nationalist strife the country has suffered, and bring the Ottoman Empire into a new and multicultural age.;;;;;;;;;;;;x
+hatt_i_humayun3_title;Hatt-i Hümayun;;;;;;;;;;;;x
+hatt_i_humayun3_desc;The Hatt-i Hümayun, or 'Imperial Reform Edict', will cement the Islamic rule over the Empire. It will go a long way towards cementing peace within Anatolia and our southern lands, and perhaps ensure that the Empire does not suffer the same discord and uncertainty that other great nations have who turn their back on tradition.;;;;;;;;;;;;x
+ottoman_islamic_rule;Islamic Rule;;;;;;;;;;;;x
+ottoman_islamic_rule_desc;The full equality of Islamic millets, and the importance given to traditional Sharia law, will ensure greater peace and adherence to order within Islamic provinces.;;;;;;;;;;;;x
+ottomanism_reform;Imperial Reform Edict;;;;;;;;;;;;x
+ottomanism_reform_desc;The Hatt-i Hümayun has established religious equality among the Empire's minorities, and gone a long way towards assuaging some of the concerns of nationalists within our borders.;;;;;;;;;;;;x
+republican_reforms;Republican Reforms;;;;;;;;;;;;x
+republican_reforms_title;Republican Reforms;;;;;;;;;;;;x
+republican_reforms_desc;Under a liberal and democratic government, Turkey must be transformed into a modern and secular state!;;;;;;;;;;;;x

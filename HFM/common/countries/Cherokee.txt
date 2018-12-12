@@ -1,0 +1,170 @@
+color = { 105  145  40 }
+graphical_culture = SouthAmericanGC
+
+#The bulk of the Cherokee people were in Oklahoma during the timeframe, despite the initial cores in Arkansas.  I altered the trail of tears decision to move Cherokee cores, and parties are based in some cases on Oklahoma history.
+
+party = {
+	name = "CHE_liberal"
+	start_date = 1836.1.1
+	end_date = 9999.1.1
+
+	ideology = liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = moralism
+	citizenship_policy = full_citizenship
+	war_policy = anti_military
+	social_policy = no_position_set
+}
+
+party = {
+	name = "CHE_conservative"
+	start_date = 1836.1.1
+	end_date = 9999.1.1
+
+	ideology = conservative
+
+	economic_policy = laissez_faire
+	trade_policy = protectionism
+	religious_policy = pluralism
+	citizenship_policy = residency
+	war_policy = anti_military
+	social_policy = no_position_set
+}
+
+party = {
+	name = "CHE_conservative_2" #State of Sequoyah movement
+	start_date = 1848.1.1
+	end_date = 9999.1.1
+
+	ideology = conservative
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = secularized
+	citizenship_policy = residency
+	war_policy = jingoism
+	social_policy = no_position_set
+}
+
+party = {
+	name = "CHE_socialist" #Cherokee land was Oklahoma by this point, and Oklahoma had a vibrant socialist party
+	start_date = 1848.1.1
+	end_date = 9999.1.1
+
+	ideology = socialist
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism # appealed frequently to religion
+	citizenship_policy = full_citizenship
+	war_policy = anti_military # USA socialists
+	social_policy = populist_welfare
+}
+
+party = {
+	name = "CHE_reactionary" #Traditionalists who opposed removal
+	start_date = 1820.1.1
+	end_date = 9999.1.1
+
+	ideology = reactionary
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+	social_policy = populist_welfare
+}
+
+party = {
+	name = "CHE_anarcho_liberal" #Wealthy Cherokee who accepted removal
+	start_date = 1830.1.1
+	end_date = 9999.1.1
+
+	ideology = anarcho_liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = pluralism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+	social_policy = no_state_interference
+}
+
+party = {
+	name = "CHE_communist" #Green corn rebellion, rural uprising in Oklahoma
+	start_date = 1848.1.1
+	end_date = 9999.1.1
+
+	ideology = communist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = jingoism
+	social_policy = welfare_state
+}
+
+party = {
+	name = "CHE_fascist" #Plains movement, but spread to Oklahoma.  Had revanchist elements, in addition to the religious side.
+	start_date = 1890.1.1
+	end_date = 9999.1.1
+
+	ideology = fascist
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+	social_policy = populist_welfare
+}
+
+unit_names = {
+	dreadnought = {
+		"Ani-kutani" "Ah-ni-ga-to-ge-wi" "Ah-ni-gi-lo-hi" "Ah-ni-ka-wi" "Ah-ni-tsi-sk-wa" "Ah-ni-sa-ho-ni" "Ah-ni-wo-di" "Ah-ni-wa-ya" Kana'ti Selu
+		"Tsul Kalu" "Oonawieh Unggi" "Ani Yuntikwalaski" "Asgaya Gigagei" "I'nage-utasvhi" "Anisga'ya Tsunsdi" "Nv-da u-no-le" "Nv-da ko-la"
+		"Nv-da ka-na-wo-ga" "Nv-da gu-ti-ha"
+		
+	}
+	ironclad = {
+		"Ani-kutani" "Ah-ni-ga-to-ge-wi" "Ah-ni-gi-lo-hi" "Ah-ni-ka-wi" "Ah-ni-tsi-sk-wa" "Ah-ni-sa-ho-ni" "Ah-ni-wo-di" "Ah-ni-wa-ya" Kana'ti Selu
+		"Tsul Kalu" "Oonawieh Unggi" "Ani Yuntikwalaski" "Asgaya Gigagei" "I'nage-utasvhi" "Anisga'ya Tsunsdi" "Nv-da u-no-le" "Nv-da ko-la"
+		"Nv-da ka-na-wo-ga" "Nv-da gu-ti-ha"
+		
+	}
+	manowar = {
+		"Ani-kutani" "Ah-ni-ga-to-ge-wi" "Ah-ni-gi-lo-hi" "Ah-ni-ka-wi" "Ah-ni-tsi-sk-wa" "Ah-ni-sa-ho-ni" "Ah-ni-wo-di" "Ah-ni-wa-ya" Kana'ti Selu
+		"Tsul Kalu" "Oonawieh Unggi" "Ani Yuntikwalaski" "Asgaya Gigagei" "I'nage-utasvhi" "Anisga'ya Tsunsdi" "Nv-da u-no-le" "Nv-da ko-la"
+		"Nv-da ka-na-wo-ga" "Nv-da gu-ti-ha"
+	}
+	cruiser = {
+		"Ani-kutani" "Ah-ni-ga-to-ge-wi" "Ah-ni-gi-lo-hi" "Ah-ni-ka-wi" "Ah-ni-tsi-sk-wa" "Ah-ni-sa-ho-ni" "Ah-ni-wo-di" "Ah-ni-wa-ya" Kana'ti Selu
+		"Tsul Kalu" "Oonawieh Unggi" "Ani Yuntikwalaski" "Asgaya Gigagei" "I'nage-utasvhi" "Anisga'ya Tsunsdi" "Nv-da u-no-le" "Nv-da ko-la"
+		"Nv-da ka-na-wo-ga" "Nv-da gu-ti-ha"
+	}
+	frigate = {
+		"Ani-kutani" "Ah-ni-ga-to-ge-wi" "Ah-ni-gi-lo-hi" "Ah-ni-ka-wi" "Ah-ni-tsi-sk-wa" "Ah-ni-sa-ho-ni" "Ah-ni-wo-di" "Ah-ni-wa-ya" Kana'ti Selu
+		"Tsul Kalu" "Oonawieh Unggi" "Ani Yuntikwalaski" "Asgaya Gigagei" "I'nage-utasvhi" "Anisga'ya Tsunsdi" "Nv-da u-no-le" "Nv-da ko-la"
+		"Nv-da ka-na-wo-ga" "Nv-da gu-ti-ha"
+	}
+	monitor = {
+		"Ani-kutani" "Ah-ni-ga-to-ge-wi" "Ah-ni-gi-lo-hi" "Ah-ni-ka-wi" "Ah-ni-tsi-sk-wa" "Ah-ni-sa-ho-ni" "Ah-ni-wo-di" "Ah-ni-wa-ya" Kana'ti Selu
+		"Tsul Kalu" "Oonawieh Unggi" "Ani Yuntikwalaski" "Asgaya Gigagei" "I'nage-utasvhi" "Anisga'ya Tsunsdi" "Nv-da u-no-le" "Nv-da ko-la"
+		"Nv-da ka-na-wo-ga" "Nv-da gu-ti-ha"
+	}
+	clipper_transport = {
+		
+	}
+	steam_transport = {
+		
+	}
+	commerce_raider = {
+		"Ani-kutani" "Ah-ni-ga-to-ge-wi" "Ah-ni-gi-lo-hi" "Ah-ni-ka-wi" "Ah-ni-tsi-sk-wa" "Ah-ni-sa-ho-ni" "Ah-ni-wo-di" "Ah-ni-wa-ya" Kana'ti Selu
+		"Tsul Kalu" "Oonawieh Unggi" "Ani Yuntikwalaski" "Asgaya Gigagei" "I'nage-utasvhi" "Anisga'ya Tsunsdi" "Nv-da u-no-le" "Nv-da ko-la"
+		"Nv-da ka-na-wo-ga" "Nv-da gu-ti-ha"
+	}
+}

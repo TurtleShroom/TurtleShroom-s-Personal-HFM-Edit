@@ -1,0 +1,60 @@
+political_decisions = {
+    all_mexico_movement = {
+        picture = manifest_destiny
+        potential = {
+			OR = {
+				tag = USA
+				AND = {
+					tag = CSA
+					has_global_flag = fall_of_the_union
+				}
+			}
+			NOT = { has_country_flag = annex_ALL_the_mexican_things }
+			OR = {
+				invention = manifest_destiny
+				has_country_flag = treaty_of_guadalupe_hidalgo
+				has_country_flag = hasmanifestdestiny
+				has_global_flag = fall_of_the_union
+			}
+			NOT = { year = 1865 }
+		}
+        allow = {
+			is_vassal = no
+			is_disarmed = no
+			OR = {
+				war_policy = jingoism
+				AND = {
+					romanticism = 1
+					ideological_thought = 1
+					OR = {
+						invention = manifest_destiny
+						has_country_flag = hasmanifestdestiny
+					}
+				}
+			}
+			controls = 2172
+			controls = 2141
+			controls = 2142
+			controls = 2152
+			is_greater_power = yes
+        }
+		effect = {
+			set_country_flag = annex_ALL_the_mexican_things
+			badboy = 10
+			add_accepted_culture = mexican
+			MEX = {
+				all_core = { add_core = USA }
+			}
+			any_country = {
+				limit = {
+					any_owned_province = {
+						is_core = MEX
+					}
+					NOT = { tag = THIS }
+				}
+				relation = { who = USA value = -200 }
+				leave_alliance = USA
+			}
+		}
+	}
+}

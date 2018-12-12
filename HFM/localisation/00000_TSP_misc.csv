@@ -1,0 +1,122 @@
+TAR;Tatarstan;;;;;;;;;;;;;x
+TAR_ADJ;Tatar;;;;;;;;;;;;;x
+TAR_absolute_monarchy;Khanate of Tataria;;;;;;;;;;;;;x
+TAR_anarcho_liberal;The Industry League;;;;;;;;;;;;;x
+TAR_bourgeois_dictatorship;Tatar Oligarchy;;;;;;;;;;;;;x
+TAR_communist;Communist Party of the Republic of Tatarstan;;;;;;;;;;;;;x
+TAR_conservative;Slavic League;;;;;;;;;;;;;x
+TAR_democracy;Federal Republic of Tatarstan;;;;;;;;;;;;;x
+TAR_fascist;The Nationalist Order;;;;;;;;;;;;;x
+TAR_fascist_dictatorship;Emirate of the Tatar Nation;;;;;;;;;;;;;x
+TAR_hms_government;Khanate of Tatarstan;;;;;;;;;;;;;x
+TAR_liberal;The Western Order;;;;;;;;;;;;;x
+TAR_presidential_dictatorship;Republic of Tatarstan;;;;;;;;;;;;;x
+TAR_proletarian_dictatorship;Tatar Autonomous Soviet Socialist Republic;;;;;;;;;;;;;x
+TAR_prussian_constitutionalism;Khanate of Tartaria;;;;;;;;;;;;;x
+TAR_reactionary;The All Tatar Union League;;;;;;;;;;;;;x
+TAR_socialist;The Collective League;;;;;;;;;;;;;x
+USA;United States of America;;;;;;;;;;;;;x
+USA_absolute_monarchy;The American Empire;;;;;;;;;;;;;x
+USA_bourgeois_dictatorship;United States of America;;;;;;;;;;;;;x
+USA_bourgeois_dictatorship_ADJ;Business Plotters';;;;;;;;;;;;;x
+USA_democracy;United States of America;;;;;;;;;;;;;x
+USA_fascist;Silver Legion of America;;;;;;;;;;;;;x
+USA_fascist_dictatorship;United States of America;;;;;;;;;;;;;x
+USA_fascist_dictatorship_ADJ;Silver;;;;;;;;;;;;;x
+USA_hms_government;Empire of Amerigo;;;;;;;;;;;;;x
+USA_presidential_dictatorship;USA;;;;;;;;;;;;;x
+USA_proletarian_dictatorship;United Socialist States of America;;;;;;;;;;;;;x
+USA_prussian_constitutionalism;The American Empire;;;;;;;;;;;;;x
+USA_reactionary2;Guardians of Traditional America;;;;;;;;;;;;;x
+CSA;Confederate States of America;;;;;;;;;;;;;x
+CSA_absolute_monarchy;Mason-Dixon Empire;;;;;;;;;;;;;x
+CSA_bourgeois_dictatorship;Confederaion of American Republics;;;;;;;;;;;;;x
+CSA_democracy;Confederate States of America;;;;;;;;;;;;;x
+CSA_fascist_dictatorship;The Confederacy;;;;;;;;;;;;;x
+CSA_fascist_dictatorship_ADJ;Klan Knights';;;;;;;;;;;;;x
+CSA_hms_government;Royal Commonwealth of the Confederation of American Realms;;;;;;;;;;;;;x
+CSA_presidential_dictatorship;CSA;;;;;;;;;;;;;x
+CSA_proletarian_dictatorship;The People's Confederacy;;;;;;;;;;;;;x
+CSA_prussian_constitutionalism;Confederation of the United Kingdoms of America;;;;;;;;;;;;;x
+YAP;Yap;;;;;;;;;;;;;x
+YAP_ADJ;Yapese;;;;;;;;;;;;;x
+YAP_democracy;State of Yap;;;;;;;;;;;;;x
+YAP_presidential_dictatorship;State of Yap;;;;;;;;;;;;;x
+YAP_fascist_dictatorship;Wa'ab Republic of the Rai;;;;;;;;;;;;;x
+YAP_hms_government;Kingdom of Wa'ab;;;;;;;;;;;;;x
+YAP_prussian_constitutionalism;Empire of Wa'ab;;;;;;;;;;;;;x
+YAP_absolute_monarchy;Empire of the Mantas;;;;;;;;;;;;;x
+YAP_proletarian_dictatorship;Peoples' Federation of Wa'ab;;;;;;;;;;;;;x
+YAP_bourgeois_dictatorship;State of the Rai;;;;;;;;;;;;;x
+YAP_fascist;Wa'ab Nationalist Faction;;;;;;;;;;;;;x
+YAP_liberal;Yapese Free Trade Organization;;;;;;;;;;;;;x
+YAP_conservative;Micronesia Federators;;;;;;;;;;;;;x
+YAP_reactionary;The Wa'ab Old Guard;;;;;;;;;;;;;x
+YAP_anarcho_liberal;Rai Council;;;;;;;;;;;;;x
+YAP_socialist;Yap-Palau Brotherhood;;;;;;;;;;;;;x
+YAP_communist;Communist Host of Micronesia;;;;;;;;;;;;;x
+MSQ;Miskito Coast;;;;;;;;;;;;;x
+MSQ_ADJ;Misikito;;;;;;;;;;;;;x
+miskito;Miskito;;;;;;;;;;;;;x
+ULA;Louisiana;;;;;;;;;;;;;x
+ULA_ADJ;Cajun;;;;;;;;;;;;x
+cajun;Cajun;;;;;;;;;;;;;x
+#ULA_absolute_monarchy;Kingdom of New France;;;;;;;;;;;;;x
+ULA_absolute_monarchy_ADJ;Louisiane;;;;;;;;;;;;;x
+ULA_anarcho_liberal;Bourbon Democrats;;;;;;;;;;;;;x
+ULA_bourgeois_dictatorship;Louisiana;;;;;;;;;;;;;x
+ULA_bourgeois_dictatorship_ADJ;Bourbon;;;;;;;;;;;;;x
+ULA_conservative;Democrats;;;;;;;;;;;;;x
+ULA_democracy;Louisiana;;;;;;;;;;;;;x
+ULA_fascist;Share Our Wealth Party;;;;;;;;;;;;;x
+ULA_fascist_dictatorship_ADJ;Kingfish;;;;;;;;;;;;;x
+ULA_hms_government;La Louisiane;;;;;;;;;;;;;x
+ULA_hms_government_ADJ;Louisiane;;;;;;;;;;;;;x
+ULA_liberal;National-Republican Party;;;;;;;;;;;;;x
+ULA_liberal2;Whigs;;;;;;;;;;;;;x
+ULA_presidential_dictatorship;Republic of Louisiana;;;;;;;;;;;;;x
+ULA_proletarian_dictatorship;Commonwealth of Acadiana;;;;;;;;;;;;;x
+ULA_proletarian_dictatorship_ADJ;Acadianan;;;;;;;;;;;;;x
+##ULA_prussian_constitutionalism;La Louisiane;;;;;;;;;;;;;x
+##ULA_prussian_constitutionalism_ADJ;Louisiane;;;;;;;;;;;;;x
+#ULA_reactionary;The Aristocracy;;;;;;;;;;;;;x
+ULA_socialist;Every Man a King;;;;;;;;;;;;;x
+MGL_presidential_dictatorship;Republic of Mongolia;;;;;;;;;;;;;x
+MGL_proletarian_dictatorship;Mongolian Peoples' Republic;;;;;;;;;;;;;x
+MGL_absolute_monarchy;Mongolian Empire;;;;;;;;;;;;;x
+MGL_prussian_constitutionalism;Khanate of Mongolia;;;;;;;;;;;;;x
+MGL_hms_government;Khanate of Mongolia;;;;;;;;;;;;;x
+MGL_reactionary;Khanate Faction;;;;;;;;;;;;;x
+MGL_socialist;Justice Party;;;;;;;;;;;;;x
+MLD;Maldives;;;;;;;;;;;;;x
+MLD_ADJ;Maldivian;;;;;;;;;;;;x
+maldivian;Maldivian;;;;;;;;;;;;;x
+harari;Harari;;;;;;;;;;;;;x
+ACR;Acre;;;;;;;;;;;;;x
+ACR_ADJ;Acrean;;;;;;;;;;;;;x
+ACR_bourgeois_dictatorship;Acre Plantations;;;;;;;;;;;;;x
+ACR_democracy;Acre;;;;;;;;;;;;;x
+ACR_hms_government;County of Acre;;;;;;;;;;;;;x
+ACR_absolute_monarchy;Royal Borough of Acre;;;;;;;;;;;;;x
+ACR_presidential_dictatorship;Republic of Acre;;;;;;;;;;;;;x
+ACR_proletarian_dictatorship;Commune of Acre;;;;;;;;;;;;;x
+ACR_prussian_constitutionalism;County of Acre;;;;;;;;;;;;;x
+ACR_fascist_dictatorship;Integralist Acre;;;;;;;;;;;;;x
+ARGENTINA_IS_WHITE;Argentina Is White!;;;;;;;;;;;;;x
+PNJ_claim_sindh_title;Claim Sindh;;;;;;;;;;;;;x
+PNJ_claim_sindh_desc;The Princely State of Sindhi lies to our south, blocking us from access to the Indian Ocean. We already have Sindhi peoples amongst us, and we enjoy warm relations with the nation. Let us annex the Sindhi state for the good of our Empire, and take in the Sindhi as our brothres.;;;;;;;;;;;;;x
+enable_ai_enslave_free_title;Allow AI Enslavement;;;;;;;;;;;;;x
+enable_ai_enslave_free_desc;Click this to allow the AI of a formerly player-controlled nation to take the "Enslave the Free" Decision.;;;;;;;;;;;;;x
+disable_ai_enslave_free_title;Disallow AI Enslavement;;;;;;;;;;;;;x
+disable_ai_enslave_free_desc;Click this to forbid the AI of a formerly player-controlled nation to take the "Enslave the Free" Decision.;;;;;;;;;;;;;x
+one_india;One India;;;;;;;;;;;;;x
+one_india_title;One India;;;;;;;;;;;;;x
+one_india_desc;The mythical land of Hindustan, indeed, all the lands of India, have finally been united as one. Gone is the British tyranny, gone are the endless divisions amongst petty realms, and in their place stands the unstoppable armies of one united continent, one united heart, and one united soul. Let us encompass all men, all creeds, and all races as one great continent.;;;;;;;;;;;;;x
+europe_migration_nerf;European Migration Trends;;;;;;;;;;;;;x
+europe_migration_nerf_desc;Our nation is a dominant force in Europe, but many immigrants seem to want to go elsewhere...;;;;;;;;;;;;;x
+do_not_move_capital_to_delhi_title;Retain Indian Capital;;;;;;;;;;;;;x
+do_not_move_capital_to_delhi_desc;The ruler of India, in his infinite wisdom, has elected to maintain the Indian capital in its current location.;;;;;;;;;;;;;x
+acre_rename_title;Rename Acre;;;;;;;;;;;;;x
+acre_rename_desc;The Republic of Acre was a short-lived country annexed by Brazil in 1903 AD. Formed by Brazilian landowners revolting against Bolivian control, the Brazilians intervened on Acre's behalf in exchange for annexation into Brazil proper. Acre, unqiuely, remains its own autonomous state in the Brazilian administration. During the brief independence, the regional capital was renamed to "Porto Acre" and the province to "Acre". Let us embark in this endeavor and stake our rightful claims.;;;;;;;;;;;;;x
+peace_with_hue_title;Peace With Brazil;;;;;;;;;;;;;x
+peace_with_hue_desc;The Republic of Acre enjoys warm relations with Brazil. While Brazil claims sovereignty over us, our relations should enable us to negotiate a mutual treaty of trade, respect, and independence between Brazil and ourselves. This should keep those filthy Bolivians from breathing down our backs...;;;;;;;;;;;;;x

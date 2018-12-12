@@ -1,0 +1,188 @@
+color = { 144  181  106 }
+graphical_culture = Generic
+
+party = {
+	name = "CAL_liberal" #Free Soil Party in Fremont's home state suits early period of settlement
+	start_date = 1830.1.1
+	end_date = 1859.1.1
+
+	ideology = liberal
+
+	economic_policy = laissez_faire
+	trade_policy = protectionism
+	religious_policy = secularized
+	citizenship_policy = full_citizenship
+	war_policy = anti_military
+	social_policy = no_position_set
+}
+
+party = {
+	name = "CAL_anarcho_liberal" #At least it's chaos
+	start_date = 1830.1.1
+	end_date = 1910.1.1
+
+	ideology = anarcho_liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = secularized
+	citizenship_policy = residency
+	war_policy = pro_military
+	social_policy = no_state_interference
+}
+
+party = {
+	name = "CAL_liberal_2" #supporters of Emperor Norton, because too awesome to leave out.
+	start_date = 1859.9.17
+	end_date = 1880.1.10
+
+	ideology = liberal
+
+	economic_policy = interventionism
+	trade_policy = free_trade
+	religious_policy = secularized
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+	social_policy = welfare_state
+}
+
+party = {
+	name = "CAL_anarcho_liberal_2" #No real rationale here, but populist doesn't fit, so rich, powerful, and famously associated with state.
+	start_date = 1910.1.1
+	end_date = 9999.1.1
+
+	ideology = anarcho_liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = secularized
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+	social_policy = no_state_interference
+}
+
+party = {
+	name = "CAL_conservative" #Strong nativist strains in the state, elected know-nothing governor
+	start_date = 1830.1.1
+	end_date = 9999.1.1
+
+	ideology = conservative
+
+	economic_policy = interventionism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = pro_military
+	social_policy = no_state_interference
+}
+
+party = {
+	name = "CAL_reactionary"
+	start_date = 1830.1.1
+	end_date = 9999.1.1
+
+	ideology = reactionary
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = secularized
+	citizenship_policy = residency
+	war_policy = jingoism
+	social_policy = no_state_interference
+}
+
+party = {
+	name = "CAL_socialist" #EPIC, Upton Sinclair's wing of Democrats during the Depression
+	start_date = 1848.1.1
+	end_date = 9999.1.1
+
+	ideology = socialist
+
+	economic_policy = state_capitalism
+	trade_policy = free_trade
+	religious_policy = secularized
+	citizenship_policy = full_citizenship
+	war_policy = pacifism
+	social_policy = populist_welfare
+}
+
+party = {
+	name = "CAL_liberal_3"
+	start_date = 1880.1.1
+	end_date = 9999.1.1
+
+	ideology = liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = secularized
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+	social_policy = no_position_set
+}
+
+party = {
+	name = "CAL_communist"
+	start_date = 1848.1.1
+	end_date = 9999.1.1
+
+	ideology = communist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+	social_policy = welfare_state
+}
+
+party = {
+	name = "CAL_fascist" #California Workingmen's party, led campaign for Chinese Exclusion Act
+	start_date = 1890.1.1
+	end_date = 9999.1.1
+
+	ideology = fascist
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+	social_policy = welfare_state
+}
+
+unit_names = {
+	dreadnought = {
+		California "John Frémont" "The Bear and Star" "William Ide" "San Francisco" "Los Angeles" Monterey Olompali Sacramento Sonoma 
+		
+	}
+	ironclad = {
+		California "John Frémont" "The Bear and Star" "William Ide" "San Francisco" "Los Angeles" Monterey Olompali Sacramento Sonoma 
+		
+	}
+	manowar = {
+		California "John Frémont" "The Bear and Star" "William Ide" "San Francisco" "Los Angeles" Monterey Olompali Sacramento Sonoma 
+		
+	}
+	cruiser = {
+		California "John Frémont" "The Bear and Star" "William Ide" "San Francisco" "Los Angeles" Monterey Olompali Sacramento Sonoma 	
+		
+	}
+	frigate = {
+		California "John Frémont" "The Bear and Star" "William Ide" "San Francisco" "Los Angeles" Monterey Olompali Sacramento Sonoma 
+		
+	}
+	monitor = {
+		California "John Frémont" "The Bear and Star" "William Ide" "San Francisco" "Los Angeles" Monterey Olompali Sacramento Sonoma 
+		
+	}
+	clipper_transport = {
+		
+	}
+	steam_transport = {
+		
+	}
+	commerce_raider = {
+		California "John Frémont" "The Bear and Star" "William Ide" "San Francisco" "Los Angeles" Monterey Olompali Sacramento Sonoma 
+	}
+}

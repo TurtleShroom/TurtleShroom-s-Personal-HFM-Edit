@@ -1,0 +1,59 @@
+wool_cloth_factories = {
+	limit = { freedom_of_trade = 1 }
+	news = no
+	chance = {
+		base = 5
+		modifier = {
+			factor = -10 
+			civilized = no
+		}
+	}
+	effect = {
+		activate_building =  wool_mill
+	}
+}
+
+industrial_bakeries = {
+	limit = { malthusian_thought = 1 }
+	news = yes
+	chance = {
+		base = 10
+		modifier = {
+			factor = -20 
+			civilized = no
+		}
+	}
+	effect = {
+		activate_building = bakery
+	}
+}
+
+
+tropical_lumber_mills = {
+	limit = { mechanical_production = 1 }
+	news = no
+
+	chance = {
+		base = 0
+		modifier = {
+			factor = 3
+			invention = mechanical_saw
+		}
+		modifier = {
+			factor = 7
+			invention = mechanical_precision_saw
+		}
+		modifier = {
+			factor = 2
+			high_pressure_steam_engine = 1
+		}
+		modifier = {
+			factor = -20
+			civilized = no
+		}
+	}
+
+	effect = {
+		activate_building = tropical_lumber_mill
+	}
+}

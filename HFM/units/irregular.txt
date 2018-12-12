@@ -1,0 +1,38 @@
+irregular = {
+	icon = 17
+	
+	type = land
+	sprite = Irregular
+	active = yes
+	unit_type = infantry
+	move_sound = army_move
+	select_sound = army_selected
+	
+	#Core Abilities
+	priority = 2
+	max_strength = 3
+	default_organisation = 20
+	maximum_speed = 4.00
+	floating_flag = yes
+	weighted_value = 1.0
+
+	#Building Costs
+	build_time = 20
+	build_cost = {
+		grain = 5
+	}
+	
+	supply_consumption = 1
+	supply_cost = {
+		grain = 0.1
+	}
+	
+
+	#Land Abilties
+	reconnaissance = 0.5
+	attack = 1
+	defence = 1
+	discipline = 0.5
+	support = 0.0
+	maneuver = 2
+}

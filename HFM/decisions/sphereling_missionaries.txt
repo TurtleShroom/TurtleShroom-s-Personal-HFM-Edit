@@ -1,0 +1,997 @@
+political_decisions = {
+	sphereling_missionaries_catholic = {
+		picture = request_missionaries
+		potential = {
+			part_of_sphere = yes
+			THIS = { sphere_owner = { has_country_flag = catholic_country } }
+			NOT = { tag = HYD }
+			NOT = { tag = MUG }
+			NOT = { has_country_flag = asked_for_protection }
+			NOT = { tag = EIC }
+			NOT = { is_culture_group = east_asian }
+			NOT = { primary_culture = japanese }
+			NOT = { has_country_flag = sunni_country }
+			NOT = { has_country_flag = shiite_country }
+			NOT = { has_country_flag = ibadi_country }
+			NOT = { has_country_flag = jewish_country }
+			NOT = { has_country_flag = catholic_country }
+			NOT = { has_country_flag = orthodox_country }
+			NOT = { has_country_flag = protestant_country }
+			NOT = { has_country_flag = coptic_country }
+			NOT = { has_country_flag = mormon_country }
+			NOT = { has_country_flag = yazidi_country }
+			NOT = { has_country_flag = permanently_changed_religion }
+			NOT = { has_country_modifier = missionary_activity }
+			civilized = no
+			OR = {
+				ai = no
+				has_country_flag = animist_country
+			}
+			NOT = { has_country_flag = mission_called_to_overlord }
+		}
+		allow = {
+			part_of_sphere = yes
+			war = no
+			OR = {
+				prestige = 5
+				civilization_progress = 0.8
+				ai = no
+			}
+			NOT = { has_country_modifier = uncivilized_isolationism }
+			OR = {
+				any_greater_power = { invention = mission_to_civilize }
+				civilization_progress = 0.5
+				ai = no
+			}
+			OR = {
+				upper_house = { ideology = liberal value = 0.3 }
+				secularized = 10
+				AND = {
+					religious_policy = pluralism
+					pluralism = 4
+				}
+				pluralism = 10
+				religious_policy = secularized
+				ai = no
+			}
+		}
+		effect = {
+			country_event = 90964
+			sphere_owner = { relation = { who = THIS value = 50 } diplomatic_influence = { who = THIS value = 15 } }
+			set_country_flag = change_to_catholic
+		}
+	}
+	sphereling_missionaries_sunni = {
+		picture = request_missionaries
+		potential = {
+			part_of_sphere = yes
+			THIS = { sphere_owner = { has_country_flag = sunni_country } }
+			NOT = { tag = HYD }
+			NOT = { tag = MUG }
+			NOT = { has_country_flag = asked_for_protection }
+			NOT = { tag = EIC }
+			NOT = { is_culture_group = east_asian }
+			NOT = { primary_culture = japanese }
+			NOT = { has_country_flag = sunni_country }
+			NOT = { has_country_flag = shiite_country }
+			NOT = { has_country_flag = ibadi_country }
+			NOT = { has_country_flag = jewish_country }
+			NOT = { has_country_flag = catholic_country }
+			NOT = { has_country_flag = orthodox_country }
+			NOT = { has_country_flag = protestant_country }
+			NOT = { has_country_flag = coptic_country }
+			NOT = { has_country_flag = mormon_country }
+			NOT = { has_country_flag = yazidi_country }
+			NOT = { has_country_flag = permanently_changed_religion }
+			NOT = { has_country_modifier = missionary_activity }
+			civilized = no
+			OR = {
+				ai = no
+				has_country_flag = animist_country
+			}
+			NOT = { has_country_flag = mission_called_to_overlord }
+		}
+		allow = {
+			part_of_sphere = yes
+			war = no
+			OR = {
+				prestige = 5
+				civilization_progress = 0.8
+				ai = no
+			}
+			NOT = { has_country_modifier = uncivilized_isolationism }
+			OR = {
+				any_greater_power = { invention = mission_to_civilize }
+				civilization_progress = 0.5
+				ai = no
+			}
+			OR = {
+				upper_house = { ideology = liberal value = 0.3 }
+				secularized = 10
+				AND = {
+					religious_policy = pluralism
+					pluralism = 4
+				}
+				pluralism = 10
+				religious_policy = secularized
+				ai = no
+			}
+		}
+		effect = {
+			country_event = 90964
+			sphere_owner = { relation = { who = THIS value = 50 } diplomatic_influence = { who = THIS value = 15 } }
+			set_country_flag = change_to_sunni
+		}
+	}
+	sphereling_missionaries_orthodox = {
+		picture = request_missionaries
+		potential = {
+			part_of_sphere = yes
+			THIS = { sphere_owner = { has_country_flag = orthodox_country } }
+			NOT = { tag = HYD }
+			NOT = { tag = MUG }
+			NOT = { has_country_flag = asked_for_protection }
+			NOT = { tag = EIC }
+			NOT = { is_culture_group = east_asian }
+			NOT = { primary_culture = japanese }
+			NOT = { has_country_flag = sunni_country }
+			NOT = { has_country_flag = shiite_country }
+			NOT = { has_country_flag = ibadi_country }
+			NOT = { has_country_flag = jewish_country }
+			NOT = { has_country_flag = catholic_country }
+			NOT = { has_country_flag = orthodox_country }
+			NOT = { has_country_flag = protestant_country }
+			NOT = { has_country_flag = coptic_country }
+			NOT = { has_country_flag = mormon_country }
+			NOT = { has_country_flag = yazidi_country }
+			NOT = { has_country_flag = permanently_changed_religion }
+			NOT = { has_country_modifier = missionary_activity }
+			civilized = no
+			OR = {
+				ai = no
+				has_country_flag = animist_country
+			}
+			NOT = { has_country_flag = mission_called_to_overlord }
+		}
+		allow = {
+			part_of_sphere = yes
+			war = no
+			OR = {
+				prestige = 5
+				civilization_progress = 0.8
+				ai = no
+			}
+			NOT = { has_country_modifier = uncivilized_isolationism }
+			OR = {
+				any_greater_power = { invention = mission_to_civilize }
+				civilization_progress = 0.5
+				ai = no
+			}
+			OR = {
+				upper_house = { ideology = liberal value = 0.3 }
+				secularized = 10
+				AND = {
+					religious_policy = pluralism
+					pluralism = 4
+				}
+				pluralism = 10
+				religious_policy = secularized
+				ai = no
+			}
+		}
+		effect = {
+			country_event = 90964
+			sphere_owner = { relation = { who = THIS value = 50 } diplomatic_influence = { who = THIS value = 15 } }
+			set_country_flag = change_to_orthodox
+		}
+	}
+	sphereling_missionaries_protestant = {
+		picture = request_missionaries
+		potential = {
+			part_of_sphere = yes
+			THIS = { sphere_owner = { has_country_flag = protestant_country } }
+			NOT = { tag = HYD }
+			NOT = { tag = MUG }
+			NOT = { has_country_flag = asked_for_protection }
+			NOT = { tag = EIC }
+			NOT = { is_culture_group = east_asian }
+			NOT = { primary_culture = japanese }
+			NOT = { has_country_flag = sunni_country }
+			NOT = { has_country_flag = shiite_country }
+			NOT = { has_country_flag = ibadi_country }
+			NOT = { has_country_flag = jewish_country }
+			NOT = { has_country_flag = catholic_country }
+			NOT = { has_country_flag = orthodox_country }
+			NOT = { has_country_flag = protestant_country }
+			NOT = { has_country_flag = coptic_country }
+			NOT = { has_country_flag = mormon_country }
+			NOT = { has_country_flag = yazidi_country }
+			NOT = { has_country_flag = permanently_changed_religion }
+			NOT = { has_country_modifier = missionary_activity }
+			civilized = no
+			OR = {
+				ai = no
+				has_country_flag = animist_country
+			}
+			NOT = { has_country_flag = mission_called_to_overlord }
+		}
+		allow = {
+			part_of_sphere = yes
+			war = no
+			OR = {
+				prestige = 5
+				civilization_progress = 0.8
+				ai = no
+			}
+			NOT = { has_country_modifier = uncivilized_isolationism }
+			OR = {
+				any_greater_power = { invention = mission_to_civilize }
+				civilization_progress = 0.5
+				ai = no
+			}
+			OR = {
+				upper_house = { ideology = liberal value = 0.3 }
+				secularized = 10
+				AND = {
+					religious_policy = pluralism
+					pluralism = 4
+				}
+				pluralism = 10
+				religious_policy = secularized
+				ai = no
+			}
+		}
+		effect = {
+			country_event = 90964
+			sphere_owner = { relation = { who = THIS value = 50 } diplomatic_influence = { who = THIS value = 15 } }
+			set_country_flag = change_to_protestant
+		}
+	}
+	sphereling_missionaries_jewish = {
+		picture = request_missionaries
+		potential = {
+			part_of_sphere = yes
+			THIS = { sphere_owner = { has_country_flag = jewish_country } }
+			NOT = { tag = HYD }
+			NOT = { tag = MUG }
+			NOT = { has_country_flag = asked_for_protection }
+			NOT = { tag = EIC }
+			NOT = { is_culture_group = east_asian }
+			NOT = { primary_culture = japanese }
+			NOT = { has_country_flag = sunni_country }
+			NOT = { has_country_flag = shiite_country }
+			NOT = { has_country_flag = ibadi_country }
+			NOT = { has_country_flag = jewish_country }
+			NOT = { has_country_flag = catholic_country }
+			NOT = { has_country_flag = orthodox_country }
+			NOT = { has_country_flag = protestant_country }
+			NOT = { has_country_flag = coptic_country }
+			NOT = { has_country_flag = mormon_country }
+			NOT = { has_country_flag = yazidi_country }
+			NOT = { has_country_flag = permanently_changed_religion }
+			NOT = { has_country_modifier = missionary_activity }
+			civilized = no
+			OR = {
+				ai = no
+				has_country_flag = animist_country
+			}
+			NOT = { has_country_flag = mission_called_to_overlord }
+		}
+		allow = {
+			part_of_sphere = yes
+			war = no
+			OR = {
+				prestige = 5
+				civilization_progress = 0.8
+				ai = no
+			}
+			NOT = { has_country_modifier = uncivilized_isolationism }
+			OR = {
+				any_greater_power = { invention = mission_to_civilize }
+				civilization_progress = 0.5
+				ai = no
+			}
+			OR = {
+				upper_house = { ideology = liberal value = 0.3 }
+				secularized = 10
+				AND = {
+					religious_policy = pluralism
+					pluralism = 4
+				}
+				pluralism = 10
+				religious_policy = secularized
+				ai = no
+			}
+		}
+		effect = {
+			country_event = 90964
+			sphere_owner = { relation = { who = THIS value = 80 } diplomatic_influence = { who = THIS value = 15 } }
+			set_country_flag = change_to_jewish
+		}
+	}
+	sphereling_missionaries_mormon = {
+		picture = request_missionaries
+		potential = {
+			part_of_sphere = yes
+			THIS = { sphere_owner = { has_country_flag = mormon_country } }
+			NOT = { tag = HYD }
+			NOT = { tag = MUG }
+			NOT = { has_country_flag = asked_for_protection }
+			NOT = { tag = EIC }
+			NOT = { is_culture_group = east_asian }
+			NOT = { primary_culture = japanese }
+			NOT = { has_country_flag = sunni_country }
+			NOT = { has_country_flag = shiite_country }
+			NOT = { has_country_flag = ibadi_country }
+			NOT = { has_country_flag = jewish_country }
+			NOT = { has_country_flag = catholic_country }
+			NOT = { has_country_flag = orthodox_country }
+			NOT = { has_country_flag = protestant_country }
+			NOT = { has_country_flag = coptic_country }
+			NOT = { has_country_flag = mormon_country }
+			NOT = { has_country_flag = yazidi_country }
+			NOT = { has_country_flag = permanently_changed_religion }
+			NOT = { has_country_modifier = missionary_activity }
+			civilized = no
+			OR = {
+				ai = no
+				has_country_flag = animist_country
+			}
+			NOT = { has_country_flag = mission_called_to_overlord }
+		}
+		allow = {
+			part_of_sphere = yes
+			war = no
+			OR = {
+				prestige = 5
+				civilization_progress = 0.8
+				ai = no
+			}
+			NOT = { has_country_modifier = uncivilized_isolationism }
+			OR = {
+				any_greater_power = { invention = mission_to_civilize }
+				civilization_progress = 0.5
+				ai = no
+			}
+			OR = {
+				upper_house = { ideology = liberal value = 0.3 }
+				secularized = 10
+				AND = {
+					religious_policy = pluralism
+					pluralism = 4
+				}
+				pluralism = 10
+				religious_policy = secularized
+				ai = no
+			}
+		}
+		effect = {
+			country_event = 90964
+			sphere_owner = { relation = { who = THIS value = 50 } diplomatic_influence = { who = THIS value = 15 } }
+			set_country_flag = change_to_mormon
+		}
+	}
+	sphereling_missionaries_shiite = {
+		picture = request_missionaries
+		potential = {
+			part_of_sphere = yes
+			THIS = { sphere_owner = { has_country_flag = shiite_country } }
+			NOT = { tag = HYD }
+			NOT = { tag = MUG }
+			NOT = { has_country_flag = asked_for_protection }
+			NOT = { tag = EIC }
+			NOT = { is_culture_group = east_asian }
+			NOT = { primary_culture = japanese }
+			NOT = { has_country_flag = sunni_country }
+			NOT = { has_country_flag = shiite_country }
+			NOT = { has_country_flag = ibadi_country }
+			NOT = { has_country_flag = jewish_country }
+			NOT = { has_country_flag = catholic_country }
+			NOT = { has_country_flag = orthodox_country }
+			NOT = { has_country_flag = protestant_country }
+			NOT = { has_country_flag = coptic_country }
+			NOT = { has_country_flag = mormon_country }
+			NOT = { has_country_flag = yazidi_country }
+			NOT = { has_country_flag = permanently_changed_religion }
+			NOT = { has_country_modifier = missionary_activity }
+			civilized = no
+			OR = {
+				ai = no
+				has_country_flag = animist_country
+			}
+			NOT = { has_country_flag = mission_called_to_overlord }
+		}
+		allow = {
+			part_of_sphere = yes
+			war = no
+			OR = {
+				prestige = 5
+				civilization_progress = 0.8
+				ai = no
+			}
+			NOT = { has_country_modifier = uncivilized_isolationism }
+			OR = {
+				any_greater_power = { invention = mission_to_civilize }
+				civilization_progress = 0.5
+				ai = no
+			}
+			OR = {
+				upper_house = { ideology = liberal value = 0.3 }
+				secularized = 10
+				AND = {
+					religious_policy = pluralism
+					pluralism = 4
+				}
+				pluralism = 10
+				religious_policy = secularized
+				ai = no
+			}
+		}
+		effect = {
+			country_event = 90964
+			sphere_owner = { relation = { who = THIS value = 50 } diplomatic_influence = { who = THIS value = 15 } }
+			set_country_flag = change_to_shiite
+		}
+	}
+	sphereling_missionaries_ibadi = {
+		picture = request_missionaries
+		potential = {
+			part_of_sphere = yes
+			THIS = { sphere_owner = { has_country_flag = ibadi_country } }
+			NOT = { tag = HYD }
+			NOT = { tag = MUG }
+			NOT = { has_country_flag = asked_for_protection }
+			NOT = { tag = EIC }
+			NOT = { is_culture_group = east_asian }
+			NOT = { primary_culture = japanese }
+			NOT = { has_country_flag = sunni_country }
+			NOT = { has_country_flag = shiite_country }
+			NOT = { has_country_flag = ibadi_country }
+			NOT = { has_country_flag = jewish_country }
+			NOT = { has_country_flag = catholic_country }
+			NOT = { has_country_flag = orthodox_country }
+			NOT = { has_country_flag = protestant_country }
+			NOT = { has_country_flag = coptic_country }
+			NOT = { has_country_flag = mormon_country }
+			NOT = { has_country_flag = yazidi_country }
+			NOT = { has_country_flag = permanently_changed_religion }
+			NOT = { has_country_modifier = missionary_activity }
+			civilized = no
+			OR = {
+				ai = no
+				has_country_flag = animist_country
+			}
+			NOT = { has_country_flag = mission_called_to_overlord }
+		}
+		allow = {
+			part_of_sphere = yes
+			war = no
+			OR = {
+				prestige = 5
+				civilization_progress = 0.8
+				ai = no
+			}
+			NOT = { has_country_modifier = uncivilized_isolationism }
+			OR = {
+				any_greater_power = { invention = mission_to_civilize }
+				civilization_progress = 0.5
+				ai = no
+			}
+			OR = {
+				upper_house = { ideology = liberal value = 0.3 }
+				secularized = 10
+				AND = {
+					religious_policy = pluralism
+					pluralism = 4
+				}
+				pluralism = 10
+				religious_policy = secularized
+				ai = no
+			}
+		}
+		effect = {
+			country_event = 90964
+			sphere_owner = { relation = { who = THIS value = 50 } diplomatic_influence = { who = THIS value = 15 } }
+			set_country_flag = change_to_ibadi
+		}
+	}
+	sphereling_missionaries_shinto = {
+		picture = request_missionaries
+		potential = {
+			part_of_sphere = yes
+			THIS = { sphere_owner = { has_country_flag = shinto_country } }
+			NOT = { tag = HYD }
+			NOT = { tag = MUG }
+			NOT = { has_country_flag = asked_for_protection }
+			NOT = { tag = EIC }
+			NOT = { is_culture_group = east_asian }
+			NOT = { primary_culture = japanese }
+			NOT = { has_country_flag = sunni_country }
+			NOT = { has_country_flag = shiite_country }
+			NOT = { has_country_flag = ibadi_country }
+			NOT = { has_country_flag = jewish_country }
+			NOT = { has_country_flag = catholic_country }
+			NOT = { has_country_flag = orthodox_country }
+			NOT = { has_country_flag = protestant_country }
+			NOT = { has_country_flag = coptic_country }
+			NOT = { has_country_flag = mormon_country }
+			NOT = { has_country_flag = yazidi_country }
+			NOT = { has_country_flag = permanently_changed_religion }
+			NOT = { has_country_modifier = missionary_activity }
+			civilized = no
+			OR = {
+				ai = no
+				has_country_flag = animist_country
+			}
+			NOT = { has_country_flag = mission_called_to_overlord }
+		}
+		allow = {
+			part_of_sphere = yes
+			war = no
+			OR = {
+				prestige = 5
+				civilization_progress = 0.8
+				ai = no
+			}
+			NOT = { has_country_modifier = uncivilized_isolationism }
+			OR = {
+				any_greater_power = { invention = mission_to_civilize }
+				civilization_progress = 0.5
+				ai = no
+			}
+			OR = {
+				upper_house = { ideology = liberal value = 0.3 }
+				secularized = 10
+				AND = {
+					religious_policy = pluralism
+					pluralism = 4
+				}
+				pluralism = 10
+				religious_policy = secularized
+				ai = no
+			}
+		}
+		effect = {
+			country_event = 90964
+			sphere_owner = { relation = { who = THIS value = 60 } diplomatic_influence = { who = THIS value = 15 } }
+			set_country_flag = change_to_shinto
+		}
+	}
+	sphereling_missionaries_mahayana = {
+		picture = request_missionaries
+		potential = {
+			part_of_sphere = yes
+			THIS = { sphere_owner = { has_country_flag = mahayana_country } }
+			NOT = { tag = HYD }
+			NOT = { tag = MUG }
+			NOT = { has_country_flag = asked_for_protection }
+			NOT = { tag = EIC }
+			NOT = { is_culture_group = east_asian }
+			NOT = { primary_culture = japanese }
+			NOT = { has_country_flag = sunni_country }
+			NOT = { has_country_flag = shiite_country }
+			NOT = { has_country_flag = ibadi_country }
+			NOT = { has_country_flag = jewish_country }
+			NOT = { has_country_flag = catholic_country }
+			NOT = { has_country_flag = orthodox_country }
+			NOT = { has_country_flag = protestant_country }
+			NOT = { has_country_flag = coptic_country }
+			NOT = { has_country_flag = mormon_country }
+			NOT = { has_country_flag = yazidi_country }
+			NOT = { has_country_flag = permanently_changed_religion }
+			NOT = { has_country_modifier = missionary_activity }
+			civilized = no
+			OR = {
+				ai = no
+				has_country_flag = animist_country
+			}
+			NOT = { has_country_flag = mission_called_to_overlord }
+		}
+		allow = {
+			part_of_sphere = yes
+			war = no
+			OR = {
+				prestige = 5
+				civilization_progress = 0.8
+				ai = no
+			}
+			NOT = { has_country_modifier = uncivilized_isolationism }
+			OR = {
+				any_greater_power = { invention = mission_to_civilize }
+				civilization_progress = 0.5
+				ai = no
+			}
+			OR = {
+				upper_house = { ideology = liberal value = 0.3 }
+				secularized = 10
+				AND = {
+					religious_policy = pluralism
+					pluralism = 4
+				}
+				pluralism = 10
+				religious_policy = secularized
+				ai = no
+			}
+		}
+		effect = {
+			country_event = 90964
+			sphere_owner = { relation = { who = THIS value = 50 } diplomatic_influence = { who = THIS value = 15 } }
+			set_country_flag = change_to_mahayana
+		}
+	}
+	sphereling_missionaries_gelugpa = {
+		picture = request_missionaries
+		potential = {
+			part_of_sphere = yes
+			THIS = { sphere_owner = { has_country_flag = gelugpa_country } }
+			NOT = { tag = HYD }
+			NOT = { tag = MUG }
+			NOT = { has_country_flag = asked_for_protection }
+			NOT = { tag = EIC }
+			NOT = { is_culture_group = east_asian }
+			NOT = { primary_culture = japanese }
+			NOT = { has_country_flag = sunni_country }
+			NOT = { has_country_flag = shiite_country }
+			NOT = { has_country_flag = ibadi_country }
+			NOT = { has_country_flag = jewish_country }
+			NOT = { has_country_flag = catholic_country }
+			NOT = { has_country_flag = orthodox_country }
+			NOT = { has_country_flag = protestant_country }
+			NOT = { has_country_flag = coptic_country }
+			NOT = { has_country_flag = mormon_country }
+			NOT = { has_country_flag = yazidi_country }
+			NOT = { has_country_flag = permanently_changed_religion }
+			NOT = { has_country_modifier = missionary_activity }
+			civilized = no
+			OR = {
+				ai = no
+				has_country_flag = animist_country
+			}
+			NOT = { has_country_flag = mission_called_to_overlord }
+		}
+		allow = {
+			part_of_sphere = yes
+			war = no
+			OR = {
+				prestige = 5
+				civilization_progress = 0.8
+				ai = no
+			}
+			NOT = { has_country_modifier = uncivilized_isolationism }
+			OR = {
+				any_greater_power = { invention = mission_to_civilize }
+				civilization_progress = 0.5
+				ai = no
+			}
+			OR = {
+				upper_house = { ideology = liberal value = 0.3 }
+				secularized = 10
+				AND = {
+					religious_policy = pluralism
+					pluralism = 4
+				}
+				pluralism = 10
+				religious_policy = secularized
+				ai = no
+			}
+		}
+		effect = {
+			country_event = 90964
+			sphere_owner = { relation = { who = THIS value = 50 } diplomatic_influence = { who = THIS value = 15 } }
+			set_country_flag = change_to_gelugpa
+		}
+	}
+	sphereling_missionaries_theravada = {
+		picture = request_missionaries
+		potential = {
+			part_of_sphere = yes
+			THIS = { sphere_owner = { has_country_flag = theravada_country } }
+			NOT = { tag = HYD }
+			NOT = { tag = MUG }
+			NOT = { has_country_flag = asked_for_protection }
+			NOT = { tag = EIC }
+			NOT = { is_culture_group = east_asian }
+			NOT = { primary_culture = japanese }
+			NOT = { has_country_flag = sunni_country }
+			NOT = { has_country_flag = shiite_country }
+			NOT = { has_country_flag = ibadi_country }
+			NOT = { has_country_flag = jewish_country }
+			NOT = { has_country_flag = catholic_country }
+			NOT = { has_country_flag = orthodox_country }
+			NOT = { has_country_flag = protestant_country }
+			NOT = { has_country_flag = coptic_country }
+			NOT = { has_country_flag = mormon_country }
+			NOT = { has_country_flag = yazidi_country }
+			NOT = { has_country_flag = permanently_changed_religion }
+			NOT = { has_country_modifier = missionary_activity }
+			civilized = no
+			OR = {
+				ai = no
+				has_country_flag = animist_country
+			}
+			NOT = { has_country_flag = mission_called_to_overlord }
+		}
+		allow = {
+			part_of_sphere = yes
+			war = no
+			OR = {
+				prestige = 5
+				civilization_progress = 0.8
+				ai = no
+			}
+			NOT = { has_country_modifier = uncivilized_isolationism }
+			OR = {
+				any_greater_power = { invention = mission_to_civilize }
+				civilization_progress = 0.5
+				ai = no
+			}
+			OR = {
+				upper_house = { ideology = liberal value = 0.3 }
+				secularized = 10
+				AND = {
+					religious_policy = pluralism
+					pluralism = 4
+				}
+				pluralism = 10
+				religious_policy = secularized
+				ai = no
+			}
+		}
+		effect = {
+			country_event = 90964
+			sphere_owner = { relation = { who = THIS value = 20 } diplomatic_influence = { who = THIS value = 15 } }
+			set_country_flag = change_to_theravada
+		}
+	}
+	sphereling_missionaries_yazidi = {
+		picture = request_missionaries
+		potential = {
+			part_of_sphere = yes
+			OR = {
+				THIS = { sphere_owner = { has_country_flag = yazidi_country } }
+				sphere_owner = { primary_culture = kurdish }
+			}
+			NOT = { tag = HYD }
+			NOT = { tag = MUG }
+			NOT = { has_country_flag = asked_for_protection }
+			NOT = { tag = EIC }
+			NOT = { is_culture_group = east_asian }
+			NOT = { primary_culture = japanese }
+			NOT = { has_country_flag = sunni_country }
+			NOT = { has_country_flag = shiite_country }
+			NOT = { has_country_flag = ibadi_country }
+			NOT = { has_country_flag = jewish_country }
+			NOT = { has_country_flag = catholic_country }
+			NOT = { has_country_flag = orthodox_country }
+			NOT = { has_country_flag = protestant_country }
+			NOT = { has_country_flag = coptic_country }
+			NOT = { has_country_flag = mormon_country }
+			NOT = { has_country_flag = yazidi_country }
+			NOT = { has_country_flag = permanently_changed_religion }
+			NOT = { has_country_modifier = missionary_activity }
+			civilized = no
+			OR = {
+				ai = no
+				has_country_flag = animist_country
+			}
+			NOT = { has_country_flag = mission_called_to_overlord }
+		}
+		allow = {
+			part_of_sphere = yes
+			war = no
+			OR = {
+				prestige = 5
+				civilization_progress = 0.8
+				ai = no
+			}
+			NOT = { has_country_modifier = uncivilized_isolationism }
+			OR = {
+				any_greater_power = { invention = mission_to_civilize }
+				civilization_progress = 0.5
+				ai = no
+			}
+			OR = {
+				upper_house = { ideology = liberal value = 0.3 }
+				secularized = 10
+				AND = {
+					religious_policy = pluralism
+					pluralism = 4
+				}
+				pluralism = 10
+				religious_policy = secularized
+				ai = no
+			}
+		}
+		effect = {
+			country_event = 90964
+			sphere_owner = { relation = { who = THIS value = 20 } diplomatic_influence = { who = THIS value = 15 } }
+			set_country_flag = change_to_yazidi
+		}
+	}
+	sphereling_missionaries_hindu = {
+		picture = request_missionaries
+		potential = {
+			part_of_sphere = yes
+			THIS = { sphere_owner = { has_country_flag = hindu_country } }
+			NOT = { tag = HYD }
+			NOT = { tag = MUG }
+			NOT = { has_country_flag = asked_for_protection }
+			NOT = { tag = EIC }
+			NOT = { is_culture_group = east_asian }
+			NOT = { primary_culture = japanese }
+			NOT = { has_country_flag = sunni_country }
+			NOT = { has_country_flag = shiite_country }
+			NOT = { has_country_flag = ibadi_country }
+			NOT = { has_country_flag = jewish_country }
+			NOT = { has_country_flag = catholic_country }
+			NOT = { has_country_flag = orthodox_country }
+			NOT = { has_country_flag = protestant_country }
+			NOT = { has_country_flag = coptic_country }
+			NOT = { has_country_flag = mormon_country }
+			NOT = { has_country_flag = yazidi_country }
+			NOT = { has_country_flag = permanently_changed_religion }
+			NOT = { has_country_modifier = missionary_activity }
+			civilized = no
+			OR = {
+				ai = no
+				has_country_flag = animist_country
+			}
+			NOT = { has_country_flag = mission_called_to_overlord }
+		}
+		allow = {
+			part_of_sphere = yes
+			war = no
+			OR = {
+				prestige = 5
+				civilization_progress = 0.8
+				ai = no
+			}
+			NOT = { has_country_modifier = uncivilized_isolationism }
+			OR = {
+				any_greater_power = { invention = mission_to_civilize }
+				civilization_progress = 0.5
+				ai = no
+			}
+			OR = {
+				upper_house = { ideology = liberal value = 0.3 }
+				secularized = 10
+				AND = {
+					religious_policy = pluralism
+					pluralism = 4
+				}
+				pluralism = 10
+				religious_policy = secularized
+				ai = no
+			}
+		}
+		effect = {
+			country_event = 90964
+			sphere_owner = { relation = { who = THIS value = 20 } diplomatic_influence = { who = THIS value = 15 } }
+			set_country_flag = change_to_hindu
+		}
+	}
+	sphereling_missionaries_druze = {
+		picture = request_missionaries
+		potential = {
+			part_of_sphere = yes
+			THIS = { sphere_owner = { has_country_flag = druze_country } }
+			NOT = { tag = HYD }
+			NOT = { tag = MUG }
+			NOT = { has_country_flag = asked_for_protection }
+			NOT = { tag = EIC }
+			NOT = { is_culture_group = east_asian }
+			NOT = { primary_culture = japanese }
+			NOT = { has_country_flag = sunni_country }
+			NOT = { has_country_flag = shiite_country }
+			NOT = { has_country_flag = ibadi_country }
+			NOT = { has_country_flag = jewish_country }
+			NOT = { has_country_flag = catholic_country }
+			NOT = { has_country_flag = orthodox_country }
+			NOT = { has_country_flag = protestant_country }
+			NOT = { has_country_flag = coptic_country }
+			NOT = { has_country_flag = mormon_country }
+			NOT = { has_country_flag = yazidi_country }
+			NOT = { has_country_flag = permanently_changed_religion }
+			NOT = { has_country_modifier = missionary_activity }
+			civilized = no
+			OR = {
+				ai = no
+				has_country_flag = animist_country
+			}
+			NOT = { has_country_flag = mission_called_to_overlord }
+		}
+		allow = {
+			part_of_sphere = yes
+			war = no
+			OR = {
+				prestige = 5
+				civilization_progress = 0.8
+				ai = no
+			}
+			NOT = { has_country_modifier = uncivilized_isolationism }
+			OR = {
+				any_greater_power = { invention = mission_to_civilize }
+				civilization_progress = 0.5
+				ai = no
+			}
+			OR = {
+				upper_house = { ideology = liberal value = 0.3 }
+				secularized = 10
+				AND = {
+					religious_policy = pluralism
+					pluralism = 4
+				}
+				pluralism = 10
+				religious_policy = secularized
+				ai = no
+			}
+		}
+		effect = {
+			country_event = 90964
+			sphere_owner = { relation = { who = THIS value = 20 } diplomatic_influence = { who = THIS value = 15 } }
+			set_country_flag = change_to_druze
+		}
+	}
+	sphereling_missionaries_sikh = {
+		picture = request_missionaries
+		potential = {
+			part_of_sphere = yes
+			THIS = { sphere_owner = { has_country_flag = sikh_country } }
+			NOT = { tag = HYD }
+			NOT = { tag = MUG }
+			NOT = { has_country_flag = asked_for_protection }
+			NOT = { tag = EIC }
+			NOT = { is_culture_group = east_asian }
+			NOT = { primary_culture = japanese }
+			NOT = { has_country_flag = sunni_country }
+			NOT = { has_country_flag = shiite_country }
+			NOT = { has_country_flag = ibadi_country }
+			NOT = { has_country_flag = jewish_country }
+			NOT = { has_country_flag = catholic_country }
+			NOT = { has_country_flag = orthodox_country }
+			NOT = { has_country_flag = protestant_country }
+			NOT = { has_country_flag = coptic_country }
+			NOT = { has_country_flag = mormon_country }
+			NOT = { has_country_flag = yazidi_country }
+			NOT = { has_country_flag = permanently_changed_religion }
+			NOT = { has_country_modifier = missionary_activity }
+			civilized = no
+			OR = {
+				ai = no
+				has_country_flag = animist_country
+			}
+			NOT = { has_country_flag = mission_called_to_overlord }
+		}
+		allow = {
+			part_of_sphere = yes
+			war = no
+			OR = {
+				prestige = 5
+				civilization_progress = 0.8
+				ai = no
+			}
+			NOT = { has_country_modifier = uncivilized_isolationism }
+			OR = {
+				any_greater_power = { invention = mission_to_civilize }
+				civilization_progress = 0.5
+				ai = no
+			}
+			OR = {
+				upper_house = { ideology = liberal value = 0.3 }
+				secularized = 10
+				AND = {
+					religious_policy = pluralism
+					pluralism = 4
+				}
+				pluralism = 10
+				religious_policy = secularized
+				ai = no
+			}
+		}
+		effect = {
+			country_event = 90964
+			sphere_owner = { relation = { who = THIS value = 20 } diplomatic_influence = { who = THIS value = 15 } }
+			set_country_flag = change_to_sikh
+		}
+	}
+}

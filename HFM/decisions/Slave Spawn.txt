@@ -1,0 +1,57 @@
+political_decisions = {
+	surprise_slavery = {
+		alert = no
+		potential = {
+			ai = no
+			slavery = yes_slavery
+			NOT = { tag = USA }
+			OR = {
+				NOT = {
+					capital_scope = {
+						continent = north_america
+					}
+				}
+				tag = CSA
+			}
+			NOT = {
+				tag = USA
+				tag = SPA
+				tag = SPC
+				tag = ENG
+				tag = POR
+				tag = ENL
+				tag = IRE
+				tag = FRA
+				tag = NET
+			}
+		}
+
+		allow = {
+			slavery = yes_slavery
+			OR = {
+				citizenship_policy = residency
+				ruling_party_ideology = reactionary
+				ruling_party_ideology = communist
+				ruling_party_ideology = fascist
+				tag = TUR
+				tag = WUR
+				tag = CSA
+				ai = no
+			}
+			NOT = {
+				ruling_party_ideology = liberal
+				ruling_party_ideology = anarcho_liberal
+				ruling_party_ideology = socialist
+			}
+		}
+
+		effect = {
+			any_owned_province = {
+				is_slave = yes
+			}
+			any_state = {
+				is_slave = yes
+			}
+		}
+	}
+}
