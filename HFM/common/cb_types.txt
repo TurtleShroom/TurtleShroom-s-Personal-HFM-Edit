@@ -4090,13 +4090,13 @@ demand_concession_casus_belli = {
 	can_use = {
 		NOT = { is_our_vassal = THIS }
 		OR = {
-			AND = { 
+			AND = {
 				THIS = { num_of_ports = 1 } 
 				num_of_ports = 1
 			}
 			AND = { war_with = THIS ai = no }
+			AND = { any_neighbor_country = { vassal_of = THIS } }
 			neighbour = THIS
-			AND = { any_neighbor_country = { vassal_of = THIS } THIS = { tag = ENG } }
 		}
 		THIS = {
 			civilized = yes
@@ -4223,10 +4223,8 @@ demand_concession_NI_casus_belli = {
 
 	can_use = {
 		OR = {
-			AND = { 
-				THIS = { num_of_ports = 1 } 
-				num_of_ports = 1
-			}
+			THIS = { num_of_ports = 1 } 
+			num_of_ports = 1
 			neighbour = THIS
 			AND = { war_with = THIS ai = no }
 		}
@@ -4878,6 +4876,7 @@ annex_africa_full = {
 			ai = yes
 			prestige = 200
 			is_greater_power = yes
+			is_secondary_power = yes
 		}
 		OR = {
 			war_with = THIS
@@ -7024,6 +7023,7 @@ enforce_slavery = {
 	}
 	
 	on_po_accepted = {
+		slavery = yes_slavery
 		FROM = {
 			badboy = 5
 		}
@@ -7059,7 +7059,7 @@ abolish_slavery = {
 	can_use = {
 		OR = {
 			slavery = yes_slavery
-			slavery = no_slavery
+			slavery = freedom_of_womb
 		}
 		is_vassal = no
 		THIS = { NOT = { has_country_modifier = no_more_war } }
@@ -7082,6 +7082,7 @@ abolish_slavery = {
 	}
 	
 	on_po_accepted = {
+		slavery = no_slavery
 		FROM = {
 			badboy = -5
 		}

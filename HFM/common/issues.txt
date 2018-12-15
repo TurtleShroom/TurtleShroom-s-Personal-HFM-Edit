@@ -236,12 +236,6 @@ political_reforms = {
 					primary_culture = irish
 					is_culture_group = british
 				}
-#				NOT = {
-#					AND = {
-#						slavery = no_slavery # Forcing AI to step up or down
-#						ai = yes
-#					}
-#				}
 			}
 		}
 		
@@ -250,6 +244,7 @@ political_reforms = {
 			allow = {
 				NOT = { has_country_flag = communist_gov }
 				NOT = { has_country_flag = slave_revolution }
+				NOT = { has_country_flag = slave_trade_leader } # Slave Trade Leader will always be a full slaver
 				NOT = {
 					tag = FSA
 					tag = ENG
@@ -278,12 +273,8 @@ political_reforms = {
 			global_immigrant_attract = 0.01
 			allow = {
 				NOT = { has_country_flag = the_slavery_debate } # HFM has a manual decision to end slavery
-#				NOT = {
-#					AND = {
-#						slavery = yes_slavery # Forcing AI to step up or down
-#						ai = yes
-#					}
-#				}
+				NOT = { has_country_flag = slave_trade_leader } # Slave Trade Leader will always be a full slaver
+				NOT = { has_country_flag = slave_trader } # Slave Power/entrenched slaver interests are too strong to end it entirely
 			}
 		}
 	}

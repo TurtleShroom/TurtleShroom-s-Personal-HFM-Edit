@@ -1,8 +1,9 @@
 capital = 1078 #Chita
-primary_culture = russian
+primary_culture = siberian
+culture = yakut
 culture = byelorussian
 culture = ukrainian
-culture = siberian
+culture = russian
 religion = orthodox
 government = absolute_monarchy
 plurality = 0.0

@@ -1,0 +1,85 @@
+political_decisions = {
+	gibraltar_is_ours = {
+		picture = flag_of_gibraltar
+		potential = {
+			NOT = { has_country_flag = gibraltar_is_ours }
+			NOT = { tag = ENG }
+			NOT = { tag = ENL }
+			OR = {
+				owns = 517
+				tag = SPA
+				tag = SPC
+				tag = IBR
+				tag = CAT
+				tag = ADO
+				tag = BSQ
+			}
+		}
+		allow = {
+			is_greater_power = yes
+			owns = 517
+		}
+		effect = {
+			set_global_flag = gibraltar_overtaken
+			set_country_flag = gibraltar_is_ours
+			517 = {
+				remove_core = ENG
+				add_core = THIS
+				add_core = SPA
+			}
+		}
+	}
+	gibraltar_is_english = {
+		picture = uk_ensign_of_gibraltar
+		potential = {
+			OR = {
+				tag = ENG
+				tag = ENL
+			}
+			has_global_flag = gibraltar_overtaken
+		}
+		allow = {
+			owns = 517
+		}
+		effect = {
+			clr_global_flag = gibraltar_overtaken
+			517 = {
+				add_core = ENG
+				add_core = THIS
+				remove_core = SPA
+				remove_core = SPC
+				remove_core = IBR
+				remove_core = CAT
+				remove_core = ADO
+				remove_core = BSQ
+			}
+		}
+	}
+	gibraltar_owner_is_weak = {
+		picture = gibraltar
+		potential = {
+			OR = {
+				tag = ENG
+				tag = ENL
+			}
+			has_global_flag = gibraltar_overtaken
+		}
+		allow = {
+			517 = {
+				owner = { is_greater_power = no }
+			}
+		}
+		effect = {
+			517 = {
+				add_core = ENG
+				add_core = THIS
+				remove_core = SPA
+				remove_core = SPC
+				remove_core = IBR
+				remove_core = CAT
+				remove_core = ADO
+				remove_core = BSQ
+			}
+		}
+	}
+}

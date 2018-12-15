@@ -625,21 +625,21 @@ political_decisions = {
 	restore_washington_capital = {
 		potential = {
 			tag = USA
-			owns = 220
+			owns = 2146
 			NOT = {
-				capital = 220
+				capital = 2146
 				has_global_flag = alt_american_civil_war_has_happened
 				has_country_flag = white_house_burnt
 			}
 		}
 		
 		allow = {
-			controls = 220
-			NOT = { capital = 220 }
+			controls = 2146
+			NOT = { capital = 2146 }
 		}
 		
 		effect = {
-			capital = 220
+			capital = 2146
 			prestige = 5
 		}
 	}
@@ -656,7 +656,7 @@ political_decisions = {
 				tag = FSA
 				AND = {
 					tag = USA
-					NOT = { owns = 220 }
+					NOT = { owns = 2146 }
 				}
 			}
 			NOT = { capital = 223 }
@@ -693,7 +693,7 @@ political_decisions = {
 				}
 				AND = {
 					tag = USA
-					NOT = { owns = 220 }
+					NOT = { owns = 2146 }
 					NOT = { owns = 223 }
 				}
 			}

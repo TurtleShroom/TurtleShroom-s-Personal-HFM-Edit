@@ -88,6 +88,7 @@ MGL_prussian_constitutionalism;Khanate of Mongolia;;;;;;;;;;;;;x
 MGL_hms_government;Khanate of Mongolia;;;;;;;;;;;;;x
 MGL_reactionary;Khanate Faction;;;;;;;;;;;;;x
 MGL_socialist;Justice Party;;;;;;;;;;;;;x
+MGL_theocracy;Bogd Khanate;;;;;;;;;;;;;x
 MLD;Maldives;;;;;;;;;;;;;x
 MLD_ADJ;Maldivian;;;;;;;;;;;;x
 maldivian;Maldivian;;;;;;;;;;;;;x
@@ -120,3 +121,9 @@ acre_rename_title;Rename Acre;;;;;;;;;;;;;x
 acre_rename_desc;The Republic of Acre was a short-lived country annexed by Brazil in 1903 AD. Formed by Brazilian landowners revolting against Bolivian control, the Brazilians intervened on Acre's behalf in exchange for annexation into Brazil proper. Acre, unqiuely, remains its own autonomous state in the Brazilian administration. During the brief independence, the regional capital was renamed to "Porto Acre" and the province to "Acre". Let us embark in this endeavor and stake our rightful claims.;;;;;;;;;;;;;x
 peace_with_hue_title;Peace With Brazil;;;;;;;;;;;;;x
 peace_with_hue_desc;The Republic of Acre enjoys warm relations with Brazil. While Brazil claims sovereignty over us, our relations should enable us to negotiate a mutual treaty of trade, respect, and independence between Brazil and ourselves. This should keep those filthy Bolivians from breathing down our backs...;;;;;;;;;;;;;x
+gibraltar_is_ours_title;Gibraltar Is Ours!;;;;;;;;;;;;;x
+gibraltar_is_ours_desc;Since the United Kingdom captured the Rock of Gibraltar in 1713 AD, the strategic point and fortress has been the gateway to the Pillars of Hercules and the entrance of the Mediterranean Sea. We have miraculously wrestled it away from the British forces and now command this all-important bastion, giving us unprecedented access over the Mediterranean. The United Kingdom can no longer claim sovereignty over these lands.;;;;;;;;;;;;;x
+gibraltar_is_english_title;Gibraltar Is English!;;;;;;;;;;;;;x
+gibraltar_is_english_desc;During the War of Spanish Succession, the United Kingdom successfully captured the Rock of Gibraltar in 1713 AD. It was, and is, a critically important chokepoint leading in and out of the Mediterranean Sea. The inviolable fortress is once again in our hands! Let us revoke the claims of the Spaniards and any others to this all-important bastion.;;;;;;;;;;;;;x
+gibralter_owner_is_weak_title;Our Enemies Have Hit Rock Bottom;;;;;;;;;;;;;x
+gibralter_owner_is_weak_desc;During the War of Spanish Succession, the United Kingdom successfully captured the Rock of Gibraltar in 1713 AD. It was, and is, a critically important chokepoint leading in and out of the Mediterranean Sea. Though we lost the Rock to foreigners, the occupying party is weak and no longer recognized as a Great Power. They cannot challenge our claims any longer, and their claims are illegitimate in the eyes of the world. Soon, Gibraltar will be ours!;;;;;;;;;;;;;x
