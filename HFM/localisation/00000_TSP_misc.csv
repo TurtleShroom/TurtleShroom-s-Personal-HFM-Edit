@@ -109,7 +109,7 @@ PNJ_claim_sindh_desc;The Princely State of Sindhi lies to our south, blocking us
 enable_ai_enslave_free_title;Allow AI Enslavement;;;;;;;;;;;;;x
 enable_ai_enslave_free_desc;Click this to allow the AI of a formerly player-controlled nation to take the "Enslave the Free" Decision.;;;;;;;;;;;;;x
 disable_ai_enslave_free_title;Disallow AI Enslavement;;;;;;;;;;;;;x
-disable_ai_enslave_free_desc;Click this to forbid the AI of a formerly player-controlled nation to take the "Enslave the Free" Decision.;;;;;;;;;;;;;x
+disable_ai_enslave_free_desc;Click this to forbid the AI of a formerly player-controlled nation from taking the "Enslave the Free" Decision.;;;;;;;;;;;;;x
 one_india;One India;;;;;;;;;;;;;x
 one_india_title;One India;;;;;;;;;;;;;x
 one_india_desc;The mythical land of Hindustan, indeed, all the lands of India, have finally been united as one. Gone is the British tyranny, gone are the endless divisions amongst petty realms, and in their place stands the unstoppable armies of one united continent, one united heart, and one united soul. Let us encompass all men, all creeds, and all races as one great continent.;;;;;;;;;;;;;x
