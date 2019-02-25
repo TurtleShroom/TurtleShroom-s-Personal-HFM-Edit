@@ -4,7 +4,7 @@ graphical_culture = SouthAmericanGC
 party = {
 	name = "SON_conservative"
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = conservative
 
@@ -19,7 +19,7 @@ party = {
 party = {
 	name = "SON_liberal"
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = liberal
 
@@ -34,7 +34,7 @@ party = {
 party = {
 	name = "SON_anarcho_liberal"
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = anarcho_liberal
 
@@ -49,7 +49,7 @@ party = {
 party = {
 	name = "SON_conservative_2"
 	start_date = 1853.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = conservative
 
@@ -64,7 +64,7 @@ party = {
 party = {
 	name = "SON_liberal_2"
 	start_date = 1853.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = liberal
 
@@ -79,7 +79,7 @@ party = {
 party = {
 	name = "SON_liberal_3"
 	start_date = 1911.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = liberal
 
@@ -94,7 +94,7 @@ party = {
 party = {
 	name = "SON_conservative_3"
 	start_date = 1913.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = conservative
 
@@ -109,7 +109,7 @@ party = {
 party = {
 	name = "SON_liberal_4"
 	start_date = 1909.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = liberal
 
@@ -124,7 +124,7 @@ party = {
 party = {
 	name = "SON_reactionary"
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = reactionary
 
@@ -139,7 +139,7 @@ party = {
 party = {
 	name = "SON_socialist"
 	start_date = 1848.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = socialist
 
@@ -154,7 +154,7 @@ party = {
 party = {
 	name = "SON_communist"
 	start_date = 1848.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = communist
 
@@ -169,7 +169,7 @@ party = {
 party = {
 	name = "SON_fascist"
 	start_date = 1900.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = fascist
 

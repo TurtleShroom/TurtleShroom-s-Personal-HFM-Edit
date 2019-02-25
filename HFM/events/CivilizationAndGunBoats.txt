@@ -61,7 +61,7 @@ country_event = {
 				nationalvalue = nv_tradition
 			}
 			modifier = {
-				factor = 2
+				factor = 3
 				tag = TPG
 			}
 		}
@@ -73,19 +73,19 @@ country_event = {
 			duration = -1
 		}
 		random_owned = {
-			limit = { owner = { foreign_naval_officers = yes_foreign_naval_officers } }
+			limit = { owner = { foreign_naval_officers = yes_foreign_naval_officers } NOT = { tag = TPG } }
 			owner = { add_country_modifier = { name = isolationist_foreign_naval_officers duration = -1 } }
 		}
 		random_owned = {
-			limit = { owner = { foreign_training = yes_foreign_training } }
+			limit = { owner = { foreign_training = yes_foreign_training } NOT = { tag = TPG } }
 			owner = { add_country_modifier = { name = isolationist_foreign_training duration = -1 } }
 		}
 		random_owned = {
-			limit = { owner = { naval_schools = yes_naval_schools } }
+			limit = { owner = { naval_schools = yes_naval_schools } NOT = { tag = TPG } }
 			owner = { add_country_modifier = { name = isolationist_foreign_naval_schools duration = -1 } }
 		}
 		random_owned = {
-			limit = { owner = { foreign_training = yes_foreign_training } }
+			limit = { owner = { foreign_training = yes_foreign_training } NOT = { tag = TPG } }
 			owner = { add_country_modifier = { name = isolationist_foreign_training duration = -1 } }
 		}
 		ai_chance = {
@@ -99,7 +99,7 @@ country_event = {
 				is_vassal = yes
 			}
 			modifier = {
-			 	factor = 1.5
+			 	factor = 1.1
 			 	nationalvalue = nv_tradition
 			}
 			modifier = {
@@ -4029,7 +4029,7 @@ country_event = {
 	trigger = {
 		NOT = { 
 			tag = EIC 
- has_country_flag = spectator
+			has_country_flag = spectator
 		}
 		civilized = no
 		has_country_modifier = uncivilized_isolationism
@@ -4677,6 +4677,7 @@ country_event = {
 						vassal_of = QNG
 						substate_of = QNG
 					}
+					NOT = { tag = TPG }
 					civilized = no
 					naval_schools = yes_naval_schools
 					NOT = { has_country_modifier = isolationist_foreign_naval_schools  }
@@ -4695,6 +4696,7 @@ country_event = {
 						vassal_of = QNG
 						substate_of = QNG
 					}
+					NOT = { tag = TPG }
 					civilized = no
 					foreign_officers = yes_foreign_officers
 					NOT = { has_country_modifier = isolationist_foreign_officers }
@@ -4714,6 +4716,7 @@ country_event = {
 						vassal_of = QNG
 						substate_of = QNG
 					}
+					NO = { tag = TPG }
 					civilized = no
 					foreign_naval_officers = yes_foreign_naval_officers
 					NOT = { has_country_modifier = isolationist_foreign_naval_officers }
@@ -4732,6 +4735,7 @@ country_event = {
 						vassal_of = QNG
 						substate_of = QNG
 					}
+					NOT = { tag TPG }
 					civilized = no
 					foreign_training = yes_foreign_training
 					NOT = { has_country_modifier = isolationist_foreign_training }
@@ -4919,6 +4923,16 @@ country_event = {
 		ai_chance = {
 			factor = 20
 			modifier = { factor = 100 any_neighbor_country = { is_greater_power = yes has_country_flag = catholic_country } }
+			modifier = { factor = 200 any_neighbor_country = { tag = PAP } }
+			modifier = {
+				factor = 250
+				any_neighbor_country = {
+					AND = {
+						tag = ITA
+						government = theocracy
+					}
+				}
+			}
 		}
 	}
 	
@@ -4998,10 +5012,7 @@ country_event = {
 				exists = yes
 				OR = {
 					tag = ISR
-					AND = {
-						is_greater_power = yes
-						has_country_flag = jewish_country
-					}
+					has_country_flag = jewish_country
 					tag = POL
 					tag = PLC
 					tag = RUS
@@ -5024,10 +5035,7 @@ country_event = {
 				exists = yes
 				OR = {
 					tag = DES
-					AND = {
-						is_greater_power = yes
-						has_country_flag = mormon_country
-					}
+					has_country_flag = mormon_country
 					tag = USA
 				}
 			}
@@ -5084,7 +5092,7 @@ country_event = {
 		FROM = { country_event = 90963 }
 		ai_chance = {
 			factor = 50
-			modifier = { factor = 0.85 FROM = { ai = no } }
+			modifier = { factor = 0.7 FROM = { ai = no } }
 		}
 	}
 }

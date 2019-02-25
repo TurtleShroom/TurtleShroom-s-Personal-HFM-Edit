@@ -7,7 +7,7 @@ graphical_culture = Generic
 party = {
 	name = "HAW_conservative" #Queen Emma's Party
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = conservative
 
@@ -22,7 +22,7 @@ party = {
 party = {
 	name = "HAW_liberal" #Missionary Party
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = liberal
 
@@ -37,7 +37,7 @@ party = {
 party = {
 	name = "HAW_conservative_2" #Robert Wilcox's Party
 	start_date = 1880.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = liberal
 
@@ -52,7 +52,7 @@ party = {
 party = {
 	name = "HAW_reactionary" #David Kalakaua's party
 	start_date = 1820.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = reactionary
 
@@ -67,7 +67,7 @@ party = {
 party = {
 	name = "HAW_anarcho_liberal" #Paramilitaries for the missionary/reform party
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = anarcho_liberal
 
@@ -82,7 +82,7 @@ party = {
 party = {
 	name = "HAW_socialist" #Democrats are slightly out of timeline as a real political force, but the Hawaiian revolution has a better case than anything in timeline
 	start_date = 1848.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = socialist
 
@@ -97,7 +97,7 @@ party = {
 party = {
 	name = "HAW_communist" #Communists aren't that creative with names, so I can't come up with them.
 	start_date = 1848.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = communist
 
@@ -112,7 +112,7 @@ party = {
 party = {
 	name = "HAW_fascist" #Motivated by nationalism, won first territorial election.  Not fascists per se, but closest Hawaii had.
 	start_date = 1900.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = fascist
 

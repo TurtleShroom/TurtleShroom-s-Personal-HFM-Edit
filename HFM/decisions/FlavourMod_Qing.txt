@@ -129,7 +129,7 @@ political_decisions = {
 			any_pop = {
 				limit = { is_culture_group = east_asian }
 				scaled_consciousness = { factor = -2 }
-				scaled_militancy = { factor = -2 }
+				scaled_militancy = { factor = -10 }
 			}
 			any_owned = {
 				remove_province_modifier = western_presence
@@ -141,7 +141,7 @@ political_decisions = {
 				remove_province_modifier = kettler_denkmal
 				remove_province_modifier = extraterritoriality_granted
 			}
-			ENG = { prestige = -200 }
+			ENG = { prestige = -500 }
 			set_variable = { which = china_destablization value = -5 }
 		}
 		ai_will_do = { factor = 1 }
@@ -371,7 +371,10 @@ political_decisions = {
 	hundred_days_reform = {
 		picture = hundred_days_reform
 		potential = {
-			tag = QNG
+			OR = {
+				tag = QNG
+				tag = TPG
+			}
 			civilized = no
 			OR = {
 				NOT = { owns = 1485 } #Taipei
@@ -452,7 +455,10 @@ political_decisions = {
 	establish_the_beiyang_fleet = {
 		picture = beiyang_fleet
 		potential = {
-			tag = QNG
+			OR = {
+				tag = QNG
+				tag = TPG
+			}
 			has_country_flag = self_strengthening_movement
 			NOT = { has_country_flag = beiyang_fleet_established }
 		}
@@ -527,7 +533,10 @@ political_decisions = {
 	establish_the_new_army = {
 		picture = the_new_army
 		potential = {
-			tag = QNG
+			OR = {
+				tag = QNG
+				tag = TPG
+			}
 			has_country_flag = self_strengthening_movement
 			NOT = { has_country_flag = the_new_army_established }
 		}
@@ -634,6 +643,7 @@ political_decisions = {
 				tag = QNG
 				tag = KMT
 				tag = CHI
+				tag = TPG
 			}
 			has_country_flag = self_strengthening_movement
 			NOT = { has_country_flag = fuzhou_aresenal_established }
@@ -670,7 +680,7 @@ political_decisions = {
 	establish_the_maritime_customs_service = {
 		picture = maritime_customs_service
 		potential = {
-			capital = 1616
+			owns = 1616
 			OR = { 
 				has_country_flag = self_strengthening_movement
 				civilized = yes
@@ -694,7 +704,10 @@ political_decisions = {
 	abolish_the_eight_banners  = {
 		picture = the_eight_banners
 		potential = {
-			tag = QNG
+			OR = {
+				tag = QNG
+				tag = MCK
+			}
 			has_country_flag = the_new_army_established
 			NOT = { has_country_flag = abolish_the_eight_banners }
 		}
@@ -735,7 +748,10 @@ political_decisions = {
 	establish_the_peking_field_force = {
 		picture = peking_field_force
 		potential = {
-			tag = QNG
+			OR = {
+				tag = QNG
+				tag = TPG
+			}
 			has_country_flag = self_strengthening_movement
 			NOT = { has_country_flag = establish_the_peking_field_force }
 		}
@@ -867,6 +883,7 @@ political_decisions = {
 				tag = QNG
 				tag = CHI
 				tag = KMT
+				tag = TPG
 			}
 			NOT = { government = proletarian_dictatorship }
 			NOT = { year = 1931 }
@@ -890,9 +907,13 @@ political_decisions = {
 				tag = QNG
 				tag = KMT
 				tag = CHI
+				tag = TPG
 			}
 			has_country_flag = self_strengthening_movement
-			capital = 1616
+			OR = {
+				capital = 1616
+				owns = 1616
+			}
 			owns = 1516
 			NOT = { has_country_flag = hanyang_arsenal }
 		}
@@ -947,6 +968,7 @@ political_decisions = {
 				tag = QNG
 				tag = KMT
 				tag = CHI
+				tag = TPG
 			}
 			OR = { 
 				AND = { 
@@ -1035,7 +1057,10 @@ political_decisions = {
 	vassalize_lanfang = {
 		picture = vassalize_lanfang
 		potential = {
-			tag = QNG
+			OR = {
+				tag = QNG
+				tag = TPG
+			}
 			is_greater_power = yes
 			LAN = { 
 				is_vassal = no 
@@ -1076,7 +1101,10 @@ political_decisions = {
 	reclaim_lanfang = {
 		picture = vassalize_lanfang
 		potential = {
-			tag = QNG
+			OR = {
+				tag = QNG
+				tag = TPG
+			}
 			is_greater_power = yes
 			LAN = { exists = no }
 			NOT = { has_country_flag = vassalize_lanfang }
@@ -1114,6 +1142,7 @@ political_decisions = {
 				tag = CHI
 				tag = KMT
 				tag = GMJ
+				tag = TPG
 			}
 			civilized = yes
 			NOT = {	
@@ -1147,7 +1176,10 @@ political_decisions = {
 	kansu_braves = {
 		picture = kansu_braves
 		potential = {
-			tag = QNG
+			OR = {
+				tag = QNG
+				tag = TPG
+			}
 			has_country_flag = qinghai_revolt_dungan
 			owns = 1557
 			has_country_flag = self_strengthening_movement
@@ -1189,7 +1221,12 @@ political_decisions = {
 	intervention_in_vietnam = {
 		picture = black_flag
 		potential = {
-			tag = QNG
+			OR = {
+				tag = QNG
+				tag = TPG
+				tag = CHI
+				tag = KMT
+			}
 			1369 = {
 				owner = {
 					NOT = { 
@@ -1248,13 +1285,16 @@ political_decisions = {
 				exists = yes
 				is_vassal = no
 			}
-			truce_with = QNG
 			NOT = { exists = DAI }
 			NOT = { has_global_flag = treaty_of_tientsin_france }
 		}
 		
 		allow = {
 			war = no
+			OR = {
+				truce_with = QNG
+				truce_with = TPG
+			}
 		}
 		
 		effect = {
@@ -1280,7 +1320,12 @@ political_decisions = {
 	treaty_of_tientsin_chinese = {
 		picture = black_flag
 		potential = {
-			tag = QNG
+			OR = {
+				tag = QNG
+				tag = KMT
+				tag = CHI
+				tag = TPG
+			}
 			HQJ = {
 				ai = yes
 				exists = yes
@@ -1305,7 +1350,7 @@ political_decisions = {
 					limit = { is_culture_group = east_asian }
 					reduce_pop = 1.15
 				}
-				remove_accepted_culture = vietnamese
+#				remove_accepted_culture = vietnamese
 				remove_country_modifier = fanatic_army
 			}
 			any_pop = {
@@ -1354,6 +1399,7 @@ political_decisions = {
 				tag = CHI
 				tag = KMT
 				tag = TKG
+				tag = TPG
 			}
 			has_country_flag = self_strengthening_movement
 			NOT = { has_global_flag = establish_the_kaiping_tramway }
@@ -1396,12 +1442,13 @@ political_decisions = {
 	establish_the_kiangnan_aresenal = {
 		picture = kiangnan_aresenal
 		potential = {
-			capital = 1616
+			owns = 1616
 			OR = {
 				tag = QNG
 				tag = CHI
 				tag = KMT
 				tag = TKG
+				tag = TPG
 			}
 			has_country_flag = beiyang_fleet_established
 			has_country_flag = self_strengthening_movement
@@ -1428,10 +1475,7 @@ political_decisions = {
 			treasury = -150000
 			set_country_flag = kiangnan_aresenal_established 
 			activate_technology = mechanized_mining
-			random_owned = {
-				limit = { owner = { civilized = no } }
-				owner = { military_reform = yes_western_shipyards }
-			}
+			military_reform = yes_western_shipyards }
 			CHI = {
 				set_country_flag = kiangnan_aresenal_established 
 				activate_technology = raider_group_doctrine
@@ -1446,6 +1490,7 @@ political_decisions = {
 				limit = {
 					province_id = 1538 #Shanghai
 					state_scope = { NOT = { has_building = steel_factory } }
+					NOT = { tag = TPG }
 				}
 				
 				owner = { 
@@ -1455,7 +1500,22 @@ political_decisions = {
 				}
 			}
 			random_owned = {
-				limit = { province_id = 1616 } #Peking 
+				limit = {
+					province_id = 1538 #Shanghai
+					state_scope = { NOT = { has_building = steel_factory } }
+					tag = TPG
+				}
+				
+				owner = {
+					build_factory_in_capital_state = steel_factory
+					build_factory_in_capital_state = steamer_shipyard
+				}
+			}
+			random_owned = {
+				limit = {
+					province_id = 1616 #Peking 
+					NOT = { tag = TPG }
+				}
 				owner = { capital = 1616 }
 			}
 			1538 = {

@@ -79,7 +79,7 @@ party = {
 party = {
 	name = "EGY_anarcho_liberal"
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = anarcho_liberal
 
@@ -94,7 +94,7 @@ party = {
 party = {
 	name = "EGY_socialist"
 	start_date = 1848.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = socialist
 
@@ -109,7 +109,7 @@ party = {
 party = {
 	name = "EGY_communist"
 	start_date = 1848.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = communist
 
@@ -124,7 +124,7 @@ party = {
 party = {
 	name = "EGY_fascist"
 	start_date = 1900.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = fascist
 

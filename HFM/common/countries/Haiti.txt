@@ -3,7 +3,7 @@ graphical_culture = AfricanGC
 party = {
 	name = "HAI_conservative"
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = conservative
 
@@ -18,7 +18,7 @@ party = {
 party = {
 	name = "HAI_liberal"
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = liberal
 
@@ -33,7 +33,7 @@ party = {
 party = {
 	name = "HAI_reactionary" #Boyerists - term used for ruling class even after Boyer deposed
 	start_date = 1820.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = reactionary
 
@@ -48,7 +48,7 @@ party = {
 party = {
 	name = "HAI_anarcho_liberal" #Peasant/bandit militias in habit of overthrowing governments.
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = anarcho_liberal
 
@@ -63,7 +63,7 @@ party = {
 party = {
 	name = "HAI_socialist" #Max Hudicourt's party.  Some sources call it communist.
 	start_date = 1848.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = socialist
 
@@ -78,7 +78,7 @@ party = {
 party = {
 	name = "HAI_communist" #Haiti's short-lived but in-timeline communist party
 	start_date = 1848.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = communist
 
@@ -93,7 +93,7 @@ party = {
 party = {
 	name = "HAI_fascist" #Out of timeframe, but nothing works better than Duvailer
 	start_date = 1905.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = fascist
 

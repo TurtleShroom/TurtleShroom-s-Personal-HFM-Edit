@@ -21,7 +21,7 @@ party = {
 party = {
 	name = "FRA_reactionary_2" #Droite nationaliste
 	start_date = 1883.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = reactionary
 
@@ -66,7 +66,7 @@ party = {
 party = {
 	name = "FRA_liberal_3" #Républicain Libéral
 	start_date = 1870.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = liberal
 
@@ -111,7 +111,7 @@ party = {
 party = {
 	name = "FRA_conservative_3" #Républicain modéré
 	start_date = 1860.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = conservative
 
@@ -141,7 +141,7 @@ party = {
 party = {
 	name = "FRA_conservative_5" #Royaliste
 	start_date = 1894.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = conservative
 
@@ -156,7 +156,7 @@ party = {
 party = {
 	name = "FRA_socialist" #Républicain démocratique
 	start_date = 1870.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = socialist
 
@@ -186,7 +186,7 @@ party = {
 party = {
 	name = "FRA_socialist_3" #SFIO
 	start_date = 1900.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = socialist
 
@@ -201,7 +201,7 @@ party = {
 party = {
 	name = "FRA_anarcho_liberal" #Républicain radical
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = anarcho_liberal
 
@@ -216,7 +216,7 @@ party = {
 party = {
 	name = "FRA_communist" #Parti Ouvrier Français
 	start_date = 1848.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = communist
 
@@ -231,7 +231,7 @@ party = {
 party = {
 	name = "FRA_fascist" #Fascists
 	start_date = 1898.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = fascist
 

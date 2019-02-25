@@ -1312,6 +1312,7 @@ nationalist_rebels = {
 		modifier = {
 			factor = 0
 			tag = QNG
+			TPG = { exists = no }
 			civilized = no
 			ai = yes
 		}
@@ -1458,7 +1459,7 @@ nationalist_rebels = {
 			}
 		}
 		modifier = {
-			factor = 1.05
+			factor = 1.25
 			culture = irish
 			country = { has_global_flag = no_help_for_the_irish }
 		}
@@ -2246,7 +2247,7 @@ christino_rebels = {
 		french_bourbon = hms_government
 		dominion = hms_government
 		democracy = hms_government
-		theocracy = theocracy
+		theocracy = hms_government
 		colonial_company = hms_government
 	}
 	
@@ -2602,7 +2603,7 @@ boxer_rebels = {
 			pop_majority_ideology = conservative
 		}
 		modifier = {
-			factor = 1.3
+			factor = 2
 			location = {
 				OR = {
 					has_province_modifier = western_presence
@@ -2739,6 +2740,10 @@ boxer_rebels = {
 	demands_enforced_effect = {
 		war_exhaustion = 25
 		country_event = 13370
+		random_country = {
+			limit = { is_greater_power = yes }
+			country_event = 13360
+		}
 	}
 }
 
@@ -3921,7 +3926,7 @@ unciv_reactionary_rebels = {
 	government = {
 		proletarian_dictatorship = absolute_monarchy
 		presidential_dictatorship = presidential_dictatorship
-		bourgeois_dictatorship = absolute_monarchy
+		bourgeois_dictatorship = presidential_dictatorship
 		fascist_dictatorship = absolute_monarchy
 		absolute_monarchy = absolute_monarchy
 		prussian_constitutionalism = absolute_monarchy
@@ -3929,7 +3934,7 @@ unciv_reactionary_rebels = {
 		french_bourbon = absolute_monarchy
 		dominion = absolute_monarchy
 		democracy = absolute_monarchy
-		theocracy = absolute_monarchy
+		theocracy = theocracy
 		colonial_company = colonial_company
 	}
 	
@@ -3986,6 +3991,10 @@ unciv_reactionary_rebels = {
 		modifier = {
 			factor = 0
 			country = { tag = QNG }
+		}
+		modifie = {
+			factor = 0
+			country = { tag = TPG }
 		}
 		modifier = {
 			factor = 0
@@ -4063,6 +4072,10 @@ unciv_reactionary_rebels = {
 			country = { tag = QNG }
 		}
 		modifier = {
+			factor = 0
+			country = { tag = TPG }
+		}
+		modifier = {
 			year = 1895
 			country = { primary_culture = manchu }
 			factor = 0
@@ -4070,7 +4083,10 @@ unciv_reactionary_rebels = {
 		modifier = {
 			factor = 0.01
 			country = {
-				tag = QNG
+				OR = {
+					tag = QNG
+					tag = TPG
+				}
 				civilization_progress = 0.75
 			}
 		}
@@ -4134,6 +4150,10 @@ unciv_reactionary_rebels = {
 		modifier = {
 			factor = 0
 			country = { tag = QNG }
+		}
+		modifier = {
+			factor = 0
+			country = { tag = TPG }
 		}
 		modifier = {
 			factor = 0

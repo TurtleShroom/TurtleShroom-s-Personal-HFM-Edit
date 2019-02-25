@@ -2,29 +2,29 @@ color = { 0  56  168 }
 graphical_culture = ChineseGC
 
 party = {
-	name = "TPG_conservative"
+	name = "TPG_conservative" # Representing old guard Qing Chinamen who backed the Taipings, they are more in line with Qing policies
 	start_date = 1800.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = conservative
 
 	social_policy = no_position_set
-	economic_policy = interventionism
+	economic_policy = planned_economy
 	trade_policy = protectionism
-	religious_policy = moralism
-	citizenship_policy = limited_citizenship
+	religious_policy = pluralism
+	citizenship_policy = limited_citizenship # The Taipings' entire existence arose from oppressing the majority of Chinamen, there's no way they'd proclaim Hakka supremacy
 	war_policy = pro_military
 }
 
 party = {
 	name = "TPG_liberal"
 	start_date = 1830.1.1
-	end_date = 1991.1.1
+	end_date = 9999.1.1
 
 	ideology = liberal
 
 	social_policy = no_position_set
-	economic_policy = laissez_faire
+	economic_policy = interventionism
 	trade_policy = free_trade
 	religious_policy = secularized
 	citizenship_policy = full_citizenship
@@ -34,22 +34,22 @@ party = {
 party = {
 	name = "TPG_reactionary"
 	start_date = 1830.1.1
-	end_date = 1999.1.1
+	end_date = 9999.1.1
 
 	ideology = reactionary
 
-	social_policy = no_position_set
-	economic_policy = planned_economy
-	trade_policy = protectionism
-	religious_policy = pluralism
-	citizenship_policy = limited_citizenship
-	war_policy = jingoism
+	social_policy = populist_welfare # The Taiping Church was big on redistribution of wealth and opposition to serfdom
+	economic_policy = laissez_faire # The Taipings were pro-Western and allowed a free market
+	trade_policy = free_trade # The Taipings were deeply invested in modernizing China
+	religious_policy = moralism # Obvious
+	citizenship_policy = full_citizenship # The Taipings' entire existence arose from oppressing the majority of Chinamen
+	war_policy = jingoism # Obvious
 }
 
 party = {
 	name = "TPG_anarcho_liberal"
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = anarcho_liberal
 
@@ -65,7 +65,7 @@ party = {
 party = {
 	name = "TPG_socialist"
 	start_date = 1848.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = socialist
 
@@ -73,29 +73,29 @@ party = {
 	economic_policy = state_capitalism
 	trade_policy = protectionism
 	religious_policy = pluralism
-	citizenship_policy = residency
+	citizenship_policy = limited_citizenship # The Taipings' entire existence arose from oppressing the majority of Chinamen, there's no way they'd proclaim Hakka supremacy
 	war_policy = jingoism
 }
 
 party = {
 	name = "TPG_communist"
 	start_date = 1890.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = communist
 
-	social_policy = populist_welfare
+	social_policy = welfare_state
 	economic_policy = planned_economy
 	trade_policy = free_trade
 	religious_policy = moralism
-	citizenship_policy = residency
-	war_policy = pro_military
+	citizenship_policy = limited_citizenship # The Taipings' entire existence arose from oppressing the majority of Chinamen, there's no way they'd proclaim Hakka supremacy
+	war_policy = pro_jingoism
 }
 
 party = {
 	name = "TPG_fascist"
 	start_date = 1900.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = fascist
 
@@ -103,7 +103,7 @@ party = {
 	economic_policy = state_capitalism
 	trade_policy = protectionism
 	religious_policy = moralism
-	citizenship_policy = residency
+	citizenship_policy = limited_citizenship # The Taipings' entire existence arose from oppressing the majority of Chinamen, there's no way they'd proclaim Hakka supremacy
 	war_policy = jingoism
 }
 

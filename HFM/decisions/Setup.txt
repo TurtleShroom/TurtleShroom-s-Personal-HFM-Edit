@@ -2538,6 +2538,7 @@ political_decisions = {
 					NOT = { tag = SIA }
 					NOT = { primary_culture = japanese }
 					NOT = { tag = QNG }
+					NOT = { tag = TPG }
 					OR = {
 						capital_scope = { continent = africa } 
 						capital_scope = { continent = west_africa } 
@@ -2569,6 +2570,7 @@ political_decisions = {
 					civilized = no
 					naval_schools = yes_naval_schools
 					NOT = { has_country_modifier = isolationist_foreign_naval_schools  }
+					NOT = { tag = TPG }
 				}
 				add_country_modifier = { name = isolationist_foreign_naval_schools duration = -1 }
 			}
@@ -2585,6 +2587,7 @@ political_decisions = {
 					civilized = no
 					foreign_officers = yes_foreign_officers
 					NOT = { has_country_modifier = isolationist_foreign_officers }
+					NOT = { tag = TPG }
 				}
 				add_country_modifier = { name = isolationist_foreign_officers duration = -1 }
 			}
@@ -2601,6 +2604,7 @@ political_decisions = {
 					civilized = no
 					foreign_naval_officers = yes_foreign_naval_officers
 					NOT = { has_country_modifier = isolationist_foreign_naval_officers }
+					NOT = { tag = TPG }
 				}
 				add_country_modifier = { name = isolationist_foreign_naval_officers duration = -1 }
 			}
@@ -2617,6 +2621,7 @@ political_decisions = {
 					civilized = no
 					foreign_training = yes_foreign_training
 					NOT = { has_country_modifier = isolationist_foreign_training }
+					NOT = { tag = TPG }
 				}
 				add_country_modifier = { name = isolationist_foreign_training duration = -1 }
 			}

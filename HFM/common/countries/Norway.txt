@@ -20,7 +20,7 @@ party = {
 party = {
 	name = "NOR_liberal_2" #Venstre
 	start_date = 1884.1.28
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = liberal
 
@@ -50,7 +50,7 @@ party = {
 party = {
 	name = "NOR_conservative_2" #Hoeyre
 	start_date = 1884.8.25
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = conservative
 
@@ -110,7 +110,7 @@ party = {
 party = {
 	name = "NOR_conservative_6" #Kristelig Folkeparti
 	start_date = 1933.9.4
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = conservative
 
@@ -125,7 +125,7 @@ party = {
 party = {
 	name = "NOR_reactionary" #Konge Partiet
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = reactionary
 
@@ -215,7 +215,7 @@ party = {
 party = {
 	name = "NOR_socialist_4" #Bondepartiet
 	start_date = 1927.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = socialist
 
@@ -260,7 +260,7 @@ party = {
 party = {
 	name = "NOR_communist_3" #Norges Kommunistiske Parti
 	start_date = 1927.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = communist
 

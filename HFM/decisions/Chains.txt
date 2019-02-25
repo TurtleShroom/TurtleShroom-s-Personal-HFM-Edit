@@ -9,7 +9,6 @@ political_decisions = {
 			}
 			NOT = {
 				has_country_flag = slave_trade_leader
-				has_country_modifier = national_confusion
 				has_global_flag = slave_trade_reinstated
 				has_global_flag = berlin_conference
 				tag = USA
@@ -37,6 +36,10 @@ political_decisions = {
 				tag = ARU
 				is_greater_power = yes
 			}
+			OR = {
+				NOT = { capital_scope = { continent = europe }
+				tag = WUR
+			}
 		}
 		allow = {
 			slavery = yes_slavery
@@ -46,6 +49,7 @@ political_decisions = {
 			}
 			NOT = {
 				has_country_flag = national_confusion
+				has_country_modifier = national_confusion
 			}
 			OR = {
 				is_sphere_leader_of = ARO
@@ -66,7 +70,10 @@ political_decisions = {
 					continent = africa
 				}
 			}
-			total_num_of_ports = 10
+			OR = {
+				total_num_of_ports = 10
+				tag = ARU
+			}
 		}
 		effect = {
 			badboy = 20
@@ -190,7 +197,7 @@ political_decisions = {
 			war = yes
 			OR = {
 				slavery = yes_slavery
-				slavery = freedom_of_womb
+#				slavery = freedom_of_womb
 			}
 			num_of_cities = 10
 			NOT = {
@@ -302,6 +309,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	move_capital_to_havana = {
 		picture = golden_havana
 		alert = no
@@ -369,6 +377,7 @@ political_decisions = {
 			}
 		}
 	}
+
 	sell_france_haiti = {
 		picture = golden_haiti
 		alert = no
@@ -392,6 +401,10 @@ political_decisions = {
 			owns = 2216
 			has_country_flag = golden_circle
 			FRA = { colonial_nation = yes }
+			FRA= {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
 		}
 		effect = {
 			FRA = {
@@ -435,6 +448,9 @@ political_decisions = {
 			NOT = { tag = IRE }
 			NOT = { tag = ENL }
 			NOT = { tag = ENG }
+			NOT = { tag = QNG }
+			NOT = { tag = CHI }
+			NOT = { tag = TPG }
 			NOT = { has_country_flag = slave_trader }
 		}
 		allow = {
@@ -1804,6 +1820,56 @@ political_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+	}
+
+	# Clear slavery modifiers, etc.
+	clear_chain_flags = {
+		picture = slaves_freed
+		potential = {
+			slavery = no_slavery
+			OR = {
+				has_country_flag = mulatto_tensions_flag
+				has_country_modifier = slavery_propaganda
+				has_country_flag = slave_trader
+				has_country_modifier = the_slavery_debate
+				has_country_flag = coloured_troops
+				has_country_modifier = enslaved_freedom
+				has_country_modifier = slavery_timer
+				has_country_flag = the_slavery_debate
+				remove_country_modifier = mulatto_modifier
+			}
+		}
+		allow = {
+			slavery = no_slavery
+		}
+		effect = {
+			clr_country_flag = mulatto_tensions_flag
+			remove_country_modifier = slavery_propaganda
+			clr_country_flag = slave_trader
+			remove_country_modifier = the_slavery_debate
+			clr_country_flag = coloured_troops
+			remove_country_modifier = enslaved_freedom
+			remove_country_modifier = slavery_timer
+			clr_country_flag = the_slavery_debate
+			remove_country_modifier = mulatto_modifier
+			slavery = no_slavery
+			any_pop = {
+				limit = {
+					NOT = { type = aristocrats }
+				}
+				militancy = -2
+			}
+			any_pop = {
+				type = aristocrats
+				militancy = 10
+			}
+			any_pop = {
+				limit = {
+					type = capitalists
+				}
+				scaled_militancy = 3
+			}
 		}
 	}
 
